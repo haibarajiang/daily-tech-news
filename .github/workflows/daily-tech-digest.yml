@@ -80,9 +80,7 @@ jobs:
 
           # 提交变更
           git add digests/ index.html
-          if ls page-*.html >/dev/null 2>&1; then
-            git add page-*.html
-          fi
+          git add page-*.html 2>/dev/null || true
           git commit -m "📰 Daily digest: ${DATE}"
           git push
 
