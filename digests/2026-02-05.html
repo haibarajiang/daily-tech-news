@@ -1,0 +1,252 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Tech News | 2026-02-05</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        *, *::before, *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        :root {
+            --bg-primary: #f3f4f6;
+            --bg-secondary: #ffffff;
+            --bg-tertiary: #f9fafb;
+            --border: #e5e7eb;
+            --text-primary: #111827;
+            --text-secondary: #4b5563;
+            --accent: #f97316;
+            --accent-hover: #ea580c;
+        }
+
+        body {
+            font-family: 'Inter', 'Noto Sans SC', sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.6;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 20px;
+            width: 100%;
+        }
+
+        /* Header */
+        header {
+            background: rgba(255, 255, 255, 0.9);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid var(--border);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .header-inner {
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .back-link {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 14px;
+            display: flex;
+            align-items: center;
+            gap: 4px;
+            transition: color 0.2s;
+        }
+
+        .back-link:hover {
+            color: var(--accent);
+        }
+
+        .header-date {
+            font-size: 14px;
+            color: var(--text-secondary);
+            font-family: monospace;
+        }
+
+        /* Main */
+        main {
+            flex: 1;
+            padding: 40px 0;
+        }
+
+        .digest-item {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        }
+
+        .digest-content {
+            padding: 32px;
+        }
+
+        /* Content Styles */
+        .digest-content h1 {
+            font-size: 24px;
+            margin-bottom: 16px;
+            color: var(--text-primary);
+        }
+
+        .digest-content h2 {
+            font-size: 18px;
+            margin: 32px 0 16px;
+            padding-bottom: 8px;
+            border-bottom: 1px solid var(--border);
+            color: var(--text-primary);
+        }
+
+        .digest-content p {
+            margin-bottom: 16px;
+            color: var(--text-secondary);
+        }
+
+        .digest-content ul {
+            padding-left: 20px;
+            margin-bottom: 24px;
+        }
+
+        .digest-content li {
+            margin-bottom: 12px;
+            color: var(--text-secondary);
+        }
+
+        .digest-content a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+
+        .digest-content a:hover {
+            text-decoration: underline;
+        }
+
+        /* Footer */
+        footer {
+            padding: 32px 0;
+            text-align: center;
+            color: var(--text-secondary);
+            font-size: 13px;
+            border-top: 1px solid var(--border);
+            background: var(--bg-secondary);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-inner">
+                <a href="../index.html" class="back-link">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M19 12H5M12 19l-7-7 7-7"/>
+                    </svg>
+                    Daily Tech News
+                </a>
+                <span class="header-date">2026-02-05</span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <article class="digest-item">
+                <div class="digest-content">
+                    <h1>Daily Tech News | 2026-02-05</h1>
+<p>今日科技圈聚焦于AI模型的最新动态与行业数据。Claude Sonnet 5疑似泄露引发关注，而中国互联网报告显示生成式AI用户已超6亿。此外，脑机接口企业启动IPO，微软Copilot遭遇困境，显示出AI产业在快速发展的同时面临商业化与技术落地的双重挑战。</p>
+<h2>1. 今日必读</h2>
+<ul>
+<li>
+<p><a href="https://www.infoq.cn/article/5qPKMW7L9fZrl4Ybmrgt">Claude Sonnet 5 泄漏，因 API 故障延迟发布？</a> (InfoQ)
+    Anthropic 即将发布的 Claude Sonnet 5 模型疑似因 API 故障意外泄露，原定发布计划可能因此推迟。这一事件引发了社区对新模型性能、稳定性以及 Anthropic 发布流程的广泛关注。</p>
+</li>
+<li>
+<p><a href="https://36kr.com/newsflashes/3669771773846144?f=rss">我国网民规模达11.25亿人 互联网普及率突破80%</a> (36kr)
+    第57次统计报告显示，截至2025年底我国网民达11.25亿，互联网普及率80.1%。值得注意的是，生成式AI用户规模已达6.02亿，应用场景正向生活生产领域深度渗透。</p>
+</li>
+<li>
+<p><a href="https://36kr.com/newsflashes/3669791196193671?f=rss">西门子收购法国半导体量测软件公司Canopus AI</a> (36kr)
+    西门子宣布收购法国半导体量测软件公司Canopus AI，该公司利用AI提高晶圆与掩膜量测检测精度。这是西门子2026年在半导体软件领域的第二起重要并购，旨在强化其工业软件布局。</p>
+</li>
+<li>
+<p><a href="https://36kr.com/newsflashes/3669730967577474?f=rss">脑机接口企业博睿康启动IPO辅导</a> (36kr)
+    脑机接口企业博睿康在上海证监局办理辅导备案，拟首次公开发行股票并上市，辅导券商为中信证券。此举标志着脑机接口技术正加速从实验室走向资本市场和商业化落地。</p>
+</li>
+<li>
+<p><a href="https://www.wsj.com/tech/ai/microsofts-pivotal-ai-product-is-running-into-big-problems-ce235b28">Microsoft's Copilot chatbot is running into problems</a> (WSJ)
+    报道指出，微软的关键AI产品Copilot在推广过程中遇到重大问题，引发了市场对其AI商业化落地能力、用户体验以及产品成熟度的担忧。</p>
+</li>
+</ul>
+<h2>2. 趋势与解读</h2>
+<ul>
+<li>
+<p><a href="https://www.v2ex.com/t/1190707">AI 都那么强了，传统的学校教育价值是不是大打折扣？</a> (V2EX)
+    随着大模型在处理日常问题上能力超越普通人，社区热议传统义务教育的价值。家长对与孩子在学习上的痛苦拉扯产生自我质疑，思考在AI时代，教育应如何转型以适应未来需求。</p>
+</li>
+<li>
+<p><a href="https://nmn.gl/blog/ai-killing-b2b-saas">AI is killing B2B SaaS</a> (Hacker News)
+    文章探讨了生成式AI如何重塑B2B软件行业，传统SaaS模式面临挑战。AI的集成能力使得单一功能软件容易被替代，迫使SaaS厂商重新思考产品定位，寻找新的生存空间。</p>
+</li>
+<li>
+<p><a href="https://www.infoq.cn/article/6HtKg4ajhkamjGkK3ODG">当AI吞噬软件，数据正在成为企业唯一的护城河</a> (InfoQ)
+    在AI时代，代码生成的门槛降低，软件本身的差异化减弱。文章指出，企业拥有的独特数据将成为构建竞争壁垒的核心资产，而非软件功能本身，数据质量将决定AI应用的成败。</p>
+</li>
+<li>
+<p><a href="https://www.v2ex.com/t/1190756">小米要用 Flutter 来重写系统 App 了</a> (V2EX)
+    小米被曝正在使用Flutter重写系统应用，引发开发者讨论。虽然Flutter跨平台特性显著，但用于系统底层应用是否合适，以及这是否暗示小米在筹备新OS，成为关注焦点。</p>
+</li>
+<li>
+<p><a href="https://www.v2ex.com/t/1190711">同事用了 cc 直接一把梭，现在让我改 bug，该 run 吗</a> (V2EX)
+    一位前端开发者吐槽同事使用AI代码工具“一把梭”生成全栈代码，导致后续维护困难。这反映了AI编程工具在提升效率的同时，也带来了代码质量和可维护性的新问题。</p>
+</li>
+</ul>
+<h2>3. 工具与深读</h2>
+<ul>
+<li>
+<p><a href="https://mistral.ai/news/voxtral-transcribe-2">Voxtral Transcribe 2</a> (Mistral AI)
+    Mistral AI 发布了 Voxtral Transcribe 2，这是一款新的语音转文字工具。该产品旨在提供高精度的转录服务，可能支持多语言处理，是AI音频处理领域的新工具。</p>
+</li>
+<li>
+<p><a href="https://boxc.net/blog/2026/claude-code-connecting-to-local-models-when-your-quota-runs-out/">Claude Code: connect to a local model when your quota runs out</a> (Boxc)
+    介绍了当Claude API配额用尽时，如何配置Claude Code连接本地模型运行的方法。这为开发者提供了降低成本、保护隐私的替代方案，增强了工具的灵活性。</p>
+</li>
+<li>
+<p><a href="https://sqldef.github.io/">Sqldef: Idempotent schema management tool for MySQL, PostgreSQL, SQLite</a> (Sqldef)
+    Sqldef 是一个支持MySQL、PostgreSQL和SQLite的幂等模式管理工具。它允许开发者像管理代码一样管理数据库结构，简化了数据库版本控制和迁移流程。</p>
+</li>
+<li>
+<p><a href="https://morphllm.com/products/glance">Show HN: Morph – Videos of AI testing your PR, embedded in GitHub</a> (Hacker News)
+    Morph 是一款嵌入GitHub的工具，能生成视频展示AI如何测试你的PR。面对大量AI生成的代码，该工具帮助审查者通过视频快速理解代码变更和测试结果，提升审查效率。</p>
+</li>
+<li>
+<p><a href="https://www.v2ex.com/t/1190662">分享一下我的飞牛 NAS 网络方案，我认为比较安全</a> (V2EX)
+    作者分享了一套基于Wireguard的NAS网络方案，通过公网服务器打通家庭和办公室网络。该方案利用内网IP直接访问设备，兼顾了访问便利性与数据安全性。</p>
+</li>
+</ul>
+                </div>
+            </article>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            Daily Tech News · 由 GLM-4.7 自动生成
+        </div>
+    </footer>
+</body>
+</html>
