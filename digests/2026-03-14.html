@@ -1,0 +1,248 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Tech News | 2026-03-14</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        *, *::before, *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        :root {
+            --bg-primary: #f3f4f6;
+            --bg-secondary: #ffffff;
+            --bg-tertiary: #f9fafb;
+            --border: #e5e7eb;
+            --text-primary: #111827;
+            --text-secondary: #4b5563;
+            --accent: #f97316;
+            --accent-hover: #ea580c;
+        }
+
+        body {
+            font-family: 'Inter', 'Noto Sans SC', sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.6;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 20px;
+            width: 100%;
+        }
+
+        /* Header */
+        header {
+            background: rgba(255, 255, 255, 0.9);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid var(--border);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .header-inner {
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .back-link {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 14px;
+            display: flex;
+            align-items: center;
+            gap: 4px;
+            transition: color 0.2s;
+        }
+
+        .back-link:hover {
+            color: var(--accent);
+        }
+
+        .header-date {
+            font-size: 14px;
+            color: var(--text-secondary);
+            font-family: monospace;
+        }
+
+        /* Main */
+        main {
+            flex: 1;
+            padding: 40px 0;
+        }
+
+        .digest-item {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        }
+
+        .digest-content {
+            padding: 32px;
+        }
+
+        /* Content Styles */
+        .digest-content h1 {
+            font-size: 24px;
+            margin-bottom: 16px;
+            color: var(--text-primary);
+        }
+
+        .digest-content h2 {
+            font-size: 18px;
+            margin: 32px 0 16px;
+            padding-bottom: 8px;
+            border-bottom: 1px solid var(--border);
+            color: var(--text-primary);
+        }
+
+        .digest-content p {
+            margin-bottom: 16px;
+            color: var(--text-secondary);
+        }
+
+        .digest-content ul {
+            padding-left: 20px;
+            margin-bottom: 24px;
+        }
+
+        .digest-content li {
+            margin-bottom: 12px;
+            color: var(--text-secondary);
+        }
+
+        .digest-content a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+
+        .digest-content a:hover {
+            text-decoration: underline;
+        }
+
+        /* Footer */
+        footer {
+            padding: 32px 0;
+            text-align: center;
+            color: var(--text-secondary);
+            font-size: 13px;
+            border-top: 1px solid var(--border);
+            background: var(--bg-secondary);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-inner">
+                <a href="../index.html" class="back-link">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M19 12H5M12 19l-7-7 7-7"/>
+                    </svg>
+                    Daily Tech News
+                </a>
+                <span class="header-date">2026-03-14</span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <article class="digest-item">
+                <div class="digest-content">
+                    <h1>Daily Tech News | 2026-03-14</h1>
+<p>AI 大模型上下文窗口竞赛再升级，Claude 正式向全用户开放百万上下文功能；科技行业组织架构调整加速，Meta 计划大规模裁员以平衡 AI 投入成本，魅族手机业务则面临“解体”式重组。与此同时，Agent 生态持续爆发，从安全工具箱到开发框架，行业正从概念验证走向深水区。</p>
+<h2>1. 今日必读</h2>
+<ul>
+<li>
+<p><a href="https://claude.com/blog/1m-context-ga">Claude Opus 4.6与Sonnet 4.6上线百万上下文</a> (Hacker News)
+  Anthropic 宣布 Claude Opus 4.6 和 Sonnet 4.6 现已全面支持 100 万 token 上下文窗口，且维持标准定价。这一更新标志着大模型在处理长文档、代码库分析等复杂任务上的能力迈上新台阶，大幅降低了开发者处理长文本的成本门槛。</p>
+</li>
+<li>
+<p><a href="https://36kr.com/newsflashes/3722133233858948">Meta据悉计划大规模裁员，或影响20%以上员工</a> (36kr)
+  据报道，Meta 正计划进行大规模裁员，旨在抵消高昂的 AI 基础设施投资成本，并为 AI 辅助带来的效率提升做准备。此举反映了科技巨头在 AI 转型期“降本增效”的新常态，人力结构调整将成为应对技术变革的常规手段。</p>
+</li>
+<li>
+<p><a href="https://36kr.com/p/3721227876039047">魅族手机“解体”：做车机，做AI，或者离开</a> (36kr)
+  魅族近期宣布重大调整，超 50% 员工即将离职，涉及约 400 人。部分员工获得 N+2 赔偿，PANDAER 团队分拆，其余业务转向车机与 AI。这标志着传统手机品牌在激烈的市场竞争下，不得不彻底重构业务版图以求生存。</p>
+</li>
+<li>
+<p><a href="https://www.tomshardware.com/tech-industry/qatar-helium-shutdown-puts-chip-supply-chain-on-a-two-week-clock">Qatar helium shutdown puts chip supply chain on a two-week clock</a> (Hacker News)
+  卡塔尔氦气供应中断给全球芯片供应链拉响了警报，预计仅剩两周的缓冲期。氦气是半导体制造过程中的关键材料，此次停摆可能对芯片生产造成严重冲击，再次凸显了全球科技供应链的脆弱性。</p>
+</li>
+<li>
+<p><a href="https://36kr.com/newsflashes/3722131530480008">SpaceX据悉计划将IPO的相关工作分配给多家银行</a> (36kr)
+  SpaceX 正在筹备一场规模巨大的 IPO，计划筹集数百亿美元，并采取非传统策略，将职责分配给包括摩根士丹利、高盛在内的多家投行。这一架构反映了市场对太空科技领域的高度期待及该交易的庞大规模。</p>
+</li>
+</ul>
+<h2>2. 趋势与解读</h2>
+<ul>
+<li>
+<p><a href="https://36kr.com/p/3720962630417024">率先向AI托管账号出手，为什么小红书要打响第一枪？</a> (36kr)
+  随着OpenClaw等AI工具的流行，AI托管账号开始泛滥。小红书率先对AI托管账号进行规制，旨在维护社区“真实体验”的核心价值。这标志着内容平台与AI生成内容之间的博弈进入新阶段，真实性将成为UGC平台的护城河。</p>
+</li>
+<li>
+<p><a href="https://www.infoq.cn/article/89QciXJpHFgMp2gvCS3C">腾讯回应OpenClaw创始人质疑，并推出龙虾安全工具箱</a> (InfoQ)
+  针对 OpenClaw（“龙虾”）引发的安全争议，腾讯回应并推出了安全工具箱。这一系列事件表明，AI Agent 工具在爆火的同时，其权限管理、数据安全等风险已成为行业关注的焦点，安全基建正成为 Agent 生态发展的前置条件。</p>
+</li>
+<li>
+<p><a href="https://36kr.com/newsflashes/3721355909544581">郭明錤：英伟达下一代Rubin平台启动新材测试，PCB升级周期将至</a> (36kr)
+  英伟达已启动下一代 CCL 材料 M10 的测试，目标应用于 Rubin Ultra 及 Feynman 平台。若进展顺利，2027 年下半年将开启新一轮 AI 服务器 PCB 材料采购周期，硬件供应链将随 AI 芯片架构升级持续受益。</p>
+</li>
+<li>
+<p><a href="https://www.infoq.cn/article/pdg3TkbgvSc2PolE5ioy">模型不再是关键？LangChain 创始人：真正决定Agent 上限的是运行框架</a> (InfoQ)
+  LangChain 创始人提出观点，认为在 Agent 开发中，运行框架的重要性正逐渐超越模型本身。这一论断为开发者指明了方向：在模型能力趋同的当下，如何设计高效的编排与运行框架，将成为决定 AI 应用落地效果的关键变量。</p>
+</li>
+</ul>
+<h2>3. 工具与深读</h2>
+<ul>
+<li>
+<p><a href="https://www.canirun.ai/">Can I run AI locally?</a> (Hacker News)
+  这是一个实用的在线查询工具，用户可以检测自己的本地硬件环境是否支持运行各类 AI 模型。随着本地部署 AI 的需求增加，该工具降低了普通用户的尝试门槛，提供了直观的硬件兼容性参考。</p>
+</li>
+<li>
+<p><a href="https://tui.studio/">TUI Studio – visual terminal UI design tool</a> (Hacker News)
+  TUI Studio 是一款可视化的终端用户界面设计工具，允许开发者通过图形化方式构建 TUI 应用。对于偏爱命令行界面的开发者而言，这大大提升了开发效率，填补了终端应用开发缺乏可视化辅助的空白。</p>
+</li>
+<li>
+<p><a href="https://signoz.io/blog/opentelemetry-rust/">OpenTelemetry for Rust Developers</a> (Hacker News)
+  这是一篇面向 Rust 开发者的深度教程，详细介绍了如何在 Rust 项目中集成 OpenTelemetry。文章涵盖了链路追踪、指标监控等核心内容，对于构建高性能、可观测的后端服务具有很高的参考价值。</p>
+</li>
+<li>
+<p><a href="https://sspai.com/post/106982">Notion 年度更新评测：7 个案例聊聊 Custom Agent</a> (少数派)
+  文章通过 7 个具体案例，深入评测了 Notion 最新的 Custom Agent 功能。作者探讨了如何利用该功能优化工作流，对于希望提升效率、挖掘 Notion AI 潜力的用户来说，是一份详尽的实战指南。</p>
+</li>
+<li>
+<p><a href="https://github.com/TomBadash/MouseControl">Mouser: An open source alternative to Logi-Plus mouse software</a> (Hacker News)
+  Mouser 是一个开源的鼠标管理软件，旨在替代罗技官方的 Logi Options Plus。针对官方软件日益臃肿、占用资源过高的问题，该项目提供了轻量级、无广告的替代方案，适合追求系统纯净度的极客用户。</p>
+</li>
+</ul>
+                </div>
+            </article>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            Daily Tech News · 由 GLM-5 自动生成
+        </div>
+    </footer>
+</body>
+</html>
