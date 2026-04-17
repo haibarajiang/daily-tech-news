@@ -1,0 +1,252 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Tech News | 2026-04-17</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        *, *::before, *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        :root {
+            --bg-primary: #f3f4f6;
+            --bg-secondary: #ffffff;
+            --bg-tertiary: #f9fafb;
+            --border: #e5e7eb;
+            --text-primary: #111827;
+            --text-secondary: #4b5563;
+            --accent: #f97316;
+            --accent-hover: #ea580c;
+        }
+
+        body {
+            font-family: 'Inter', 'Noto Sans SC', sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.6;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 20px;
+            width: 100%;
+        }
+
+        /* Header */
+        header {
+            background: rgba(255, 255, 255, 0.9);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid var(--border);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .header-inner {
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .back-link {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 14px;
+            display: flex;
+            align-items: center;
+            gap: 4px;
+            transition: color 0.2s;
+        }
+
+        .back-link:hover {
+            color: var(--accent);
+        }
+
+        .header-date {
+            font-size: 14px;
+            color: var(--text-secondary);
+            font-family: monospace;
+        }
+
+        /* Main */
+        main {
+            flex: 1;
+            padding: 40px 0;
+        }
+
+        .digest-item {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        }
+
+        .digest-content {
+            padding: 32px;
+        }
+
+        /* Content Styles */
+        .digest-content h1 {
+            font-size: 24px;
+            margin-bottom: 16px;
+            color: var(--text-primary);
+        }
+
+        .digest-content h2 {
+            font-size: 18px;
+            margin: 32px 0 16px;
+            padding-bottom: 8px;
+            border-bottom: 1px solid var(--border);
+            color: var(--text-primary);
+        }
+
+        .digest-content p {
+            margin-bottom: 16px;
+            color: var(--text-secondary);
+        }
+
+        .digest-content ul {
+            padding-left: 20px;
+            margin-bottom: 24px;
+        }
+
+        .digest-content li {
+            margin-bottom: 12px;
+            color: var(--text-secondary);
+        }
+
+        .digest-content a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+
+        .digest-content a:hover {
+            text-decoration: underline;
+        }
+
+        /* Footer */
+        footer {
+            padding: 32px 0;
+            text-align: center;
+            color: var(--text-secondary);
+            font-size: 13px;
+            border-top: 1px solid var(--border);
+            background: var(--bg-secondary);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-inner">
+                <a href="../index.html" class="back-link">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M19 12H5M12 19l-7-7 7-7"/>
+                    </svg>
+                    Daily Tech News
+                </a>
+                <span class="header-date">2026-04-17</span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <article class="digest-item">
+                <div class="digest-content">
+                    <h1>Daily Tech News | 2026-04-17</h1>
+<p>今日科技圈迎来 AI 模型与硬件的双重爆发。Anthropic 发布 Claude Opus 4.7，阿里开源 Qwen3.6-35B-A3B，大模型竞争进入白热化阶段。硬件方面，大疆推出 Pocket 4，长江存储加速扩产，而内存接口即将迎来 DDR6 时代的物理变革。</p>
+<h2>1. 今日必读</h2>
+<ul>
+<li>
+<p><a href="https://www.anthropic.com/news/claude-opus-4-7">Anthropic 发布 Claude Opus 4.7 模型</a> (Hacker News)
+  Anthropic 正式发布 Claude Opus 4.7 模型，在性能上展现出强劲实力。与此同时，Simon Willison 等开发者实测发现，阿里开源的 Qwen3.6 在特定绘图任务上表现优于 Opus 4.7，显示出开源模型与闭源巨头在顶尖水平上的激烈角逐。</p>
+</li>
+<li>
+<p><a href="https://36kr.com/p/3770357608219395?f=rss">阿里开源 Qwen3.6-35B-A3B 模型</a> (36氪)
+  阿里千问开源中等尺寸模型 Qwen3.6-35B-A3B，该模型仅激活 3B 参数即超越谷歌最新发布的 Gemma4-31B。这一发布标志着开源社区在中等参数量级上拥有了极具竞争力的“快省”模型，大幅降低了高性能模型的部署门槛。</p>
+</li>
+<li>
+<p><a href="https://36kr.com/newsflashes/3770303536825092?f=rss">长江存储一季度收入超 200 亿元</a> (36氪)
+  产业链消息显示，长江存储一季度收入同比翻倍增长，NAND 芯片产量已占全球市场 10% 份额，逼近全球第三。为应对庞大的存储订单，公司正进行“史诗级扩产”，计划在新建一座工厂的基础上再建两座，国产存储芯片产能进入爆发期。</p>
+</li>
+<li>
+<p><a href="https://36kr.com/p/3769604011885316?f=rss">大疆发布 Osmo Pocket 4 云台相机</a> (36氪)
+  大疆发布全新一英寸口袋云台相机 Osmo Pocket 4，影像性能大幅升级，动态范围提升至 14 级，并支持 10-bit D-Log。面对激烈的短视频硬件竞争，大疆选择下调起售价 500 元，以更具性价比的策略巩固市场地位。</p>
+</li>
+<li>
+<p><a href="https://36kr.com/p/3770363954954755?f=rss">行云集成电路完成超 4 亿元融资</a> (36氪)
+  国内全自研 GPGPU 创新企业“行云集成电路”宣布连续完成超 4 亿元融资，由五源资本等领投。公司由“华为天才少年”创业，专注于新一代推理芯片研发，旨在重构显存成本，解决 AI 算力基础设施的核心瓶颈。</p>
+</li>
+</ul>
+<h2>2. 趋势与解读</h2>
+<ul>
+<li>
+<p><a href="https://36kr.com/p/3769501816439555?f=rss">具身智能面临数据荒，智元发布物理 AI 数据平台</a> (36氪)
+  相比大语言模型动辄万亿 token，具身机器人行业正遭遇“无 token 可烧”的数据瓶颈。智元机器人旗下觅蜂科技发布一站式物理 AI 数据服务平台，试图让真实世界的数据像水电一样即取即用，解决制约行业发展的核心痛点。</p>
+</li>
+<li>
+<p><a href="https://www.infoq.cn/article/h4WPj7MeydhFDpsOqyCl?utm_source=rss&amp;utm_medium=article">AI 代码获准进入 Linux 内核，责任归属成关键</a> (InfoQ)
+  Linux 内核社区对 AI 代码的态度发生转变，允许 AI 生成的代码进入内核，但前提是必须有人类维护者背书并承担责任。这一妥协标志着 AI 编程工具在开源核心基础设施中的渗透，同时也引发了关于代码版权与安全责任的新讨论。</p>
+</li>
+<li>
+<p><a href="https://www.v2ex.com/t/1206337">内存接口将迎巨变：DDR6 普及前夕的 DIMM 终结</a> (V2EX)
+  有分析指出，内存减产涨价的深层原因是物理接口即将发生天翻地覆的变化。自 1990 年代沿用的 DIMM 物理接口设计将在 2027 年 DDR6 普及时迎来变革，这不仅是技术的迭代，更可能重塑内存产业链的格局。</p>
+</li>
+<li>
+<p><a href="https://www.infoq.cn/article/dDG9KpwHWj9ufYENNgVP?utm_source=rss&amp;utm_medium=article">Claude 推行强制实名认证</a> (InfoQ)
+  Anthropic 开始推行强制化实名认证，部分功能需提交证件和自拍才能使用。这一举措反映了 AI 厂商在安全合规与滥用防范上的压力日益增大，可能会对注重隐私的开发者群体产生一定影响。</p>
+</li>
+<li>
+<p><a href="https://www.v2ex.com/t/1206503">低价 GPT Codex 来源曝光，API 转售灰色产业链浮现</a> (V2EX)
+  论坛讨论揭示了近期泛滥的低价 GPT Codex 背后的源头，部分渠道 Plus 价格低至 6-7 元。这暴露了 API 密钥转售与滥用背后的灰色产业链，用户在使用此类服务时面临账号封禁与隐私泄露的双重风险。</p>
+</li>
+</ul>
+<h2>3. 工具与深读</h2>
+<ul>
+<li>
+<p><a href="https://cadquery.github.io/">CadQuery：Python 3D CAD 建模库</a> (Hacker News)
+  CadQuery 是一个开源的 Python 库，允许开发者通过脚本构建 3D CAD 模型。相比传统的 GUI 建模软件，它更适合程序员进行参数化设计和自动化建模，是硬件开发与 3D 打印领域的强力工具。</p>
+</li>
+<li>
+<p><a href="https://android-developers.googleblog.com/2026/04/build-android-apps-3x-faster-using-any-agent.html">Android CLI：利用 Agent 加速应用构建</a> (Hacker News)
+  谷歌推出 Android CLI 工具，支持开发者使用任意 Agent 辅助构建应用，效率提升达 3 倍。这一工具标志着移动开发流程正在被 AI 深度重构，命令行界面将成为 AI Agent 协作的重要入口。</p>
+</li>
+<li>
+<p><a href="https://www.zatanna.ai/kampala">Kampala：逆向工程应用生成 API</a> (Hacker News)
+  Kampala 是一个 MITM（中间人）风格的代理工具，能够将现有的 App 逆向工程并自动转化为 API 接口。对于需要集成缺乏开放 API 的第三方服务的开发者来说，这提供了一种极具想象力的自动化解决方案。</p>
+</li>
+<li>
+<p><a href="https://github.com/GRVYDEV/marky">Marky：轻量级 Markdown 查看器</a> (Hacker News)
+  专为 Agent 编程时代设计的轻量级 Markdown 查看器。在 AI Agent 生成大量计划和文档的当下，该工具帮助开发者更高效地审阅 Markdown 文件，优化了人机协作的阅读体验。</p>
+</li>
+<li>
+<p><a href="https://blog.cloudflare.com/ai-platform/">Cloudflare AI Platform：面向 Agent 的推理层</a> (Hacker News)
+  Cloudflare 发布 AI 平台，提供专为 Agent 设计的推理层和版本化存储 Artifacts。该平台旨在解决 Agent 在复杂任务中的状态持久化与工具调用问题，为构建生产级 AI Agent 提供了基础设施支持。</p>
+</li>
+</ul>
+                </div>
+            </article>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            Daily Tech News · 由 GLM-5 自动生成
+        </div>
+    </footer>
+</body>
+</html>
