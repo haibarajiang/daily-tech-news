@@ -1,0 +1,252 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Tech News | 2026-04-18</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        *, *::before, *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        :root {
+            --bg-primary: #f3f4f6;
+            --bg-secondary: #ffffff;
+            --bg-tertiary: #f9fafb;
+            --border: #e5e7eb;
+            --text-primary: #111827;
+            --text-secondary: #4b5563;
+            --accent: #f97316;
+            --accent-hover: #ea580c;
+        }
+
+        body {
+            font-family: 'Inter', 'Noto Sans SC', sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.6;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 20px;
+            width: 100%;
+        }
+
+        /* Header */
+        header {
+            background: rgba(255, 255, 255, 0.9);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid var(--border);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .header-inner {
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .back-link {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 14px;
+            display: flex;
+            align-items: center;
+            gap: 4px;
+            transition: color 0.2s;
+        }
+
+        .back-link:hover {
+            color: var(--accent);
+        }
+
+        .header-date {
+            font-size: 14px;
+            color: var(--text-secondary);
+            font-family: monospace;
+        }
+
+        /* Main */
+        main {
+            flex: 1;
+            padding: 40px 0;
+        }
+
+        .digest-item {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        }
+
+        .digest-content {
+            padding: 32px;
+        }
+
+        /* Content Styles */
+        .digest-content h1 {
+            font-size: 24px;
+            margin-bottom: 16px;
+            color: var(--text-primary);
+        }
+
+        .digest-content h2 {
+            font-size: 18px;
+            margin: 32px 0 16px;
+            padding-bottom: 8px;
+            border-bottom: 1px solid var(--border);
+            color: var(--text-primary);
+        }
+
+        .digest-content p {
+            margin-bottom: 16px;
+            color: var(--text-secondary);
+        }
+
+        .digest-content ul {
+            padding-left: 20px;
+            margin-bottom: 24px;
+        }
+
+        .digest-content li {
+            margin-bottom: 12px;
+            color: var(--text-secondary);
+        }
+
+        .digest-content a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+
+        .digest-content a:hover {
+            text-decoration: underline;
+        }
+
+        /* Footer */
+        footer {
+            padding: 32px 0;
+            text-align: center;
+            color: var(--text-secondary);
+            font-size: 13px;
+            border-top: 1px solid var(--border);
+            background: var(--bg-secondary);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-inner">
+                <a href="../index.html" class="back-link">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M19 12H5M12 19l-7-7 7-7"/>
+                    </svg>
+                    Daily Tech News
+                </a>
+                <span class="header-date">2026-04-18</span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <article class="digest-item">
+                <div class="digest-content">
+                    <h1>Daily Tech News | 2026-04-18</h1>
+<p>今日科技圈动态频出，OpenAI Sora 负责人离职引发对 AI 战略调整的关注，小米汽车迎来首位 CTO 重磅人事变动。与此同时，端侧 AI 与具身智能持续升温，谷歌开源 Gemma 4 加剧模型竞争，而芯片与底层架构的创新仍在不断重塑算力成本与安全边界。</p>
+<h2>1. 今日必读</h2>
+<ul>
+<li>
+<p><a href="https://36kr.com/p/3770688595214857?f=rss">小米汽车重磅任命：胡峥楠任 CTO，宋钢任参谋长</a> (36氪)
+    小米集团宣布胡峥楠出任小米集团副总裁、汽车部 CTO，宋钢出任汽车部副总裁、参谋长。这是小米汽车自 2021 年成立以来首次设立 CTO 岗位，两位新高管均拥有超过二十年汽车行业经验，将助力小米汽车研发体系迈向新阶段。</p>
+</li>
+<li>
+<p><a href="https://36kr.com/newsflashes/3771676858827523?f=rss">Sora 负责人离职</a> (36氪)
+    OpenAI 视频生成平台 Sora 负责人比尔·皮布尔斯宣布离职。据悉，公司正在调整战略以减少“支线项目”，将重点转向编程和企业应用，皮布尔斯的离开正是这一系列调整的一部分，引发外界对 OpenAI 产品路线图的猜测。</p>
+</li>
+<li>
+<p><a href="https://36kr.com/p/3770363954954755?f=rss">36氪首发 | “华为天才少年”创业连融超 4 亿元，做新一代推理芯片</a> (36氪)
+    国内全自研 GPGPU 创新企业「行云集成电路」宣布完成超 4 亿元人民币融资。公司致力于重构显存成本，打造新一代推理芯片，由五源资本、赛富投资基金等领投，显示了资本市场对国产 AI 芯片底层创新的持续看好。</p>
+</li>
+<li>
+<p><a href="https://36kr.com/p/3770721219035649?f=rss">智元机器人，要做 AI 大模型平台和开放生态</a> (36kr)
+    在跨过“机器人量产下线一万台”门槛后，智元机器人宣布将重心转向软件，推出六大 AI 模型与七大生产力解决方案。这家由前华为“天才少年”创立的公司，正试图通过构建 AI 大模型平台和开放生态，解决机器人行业的智能化瓶颈。</p>
+</li>
+<li>
+<p><a href="https://36kr.com/newsflashes/3771775440601859?f=rss">马斯克：从物理学第一原理出发，重新设计了锂提炼工艺</a> (36氪)
+    特斯拉官方表示其锂精炼厂采用无酸精炼工艺，实现水循环利用，碳足迹远低于传统工厂。马斯克强调工程团队从物理学第一原理出发重新设计工艺，旨在为电池供应链构建锂资源闭环体系，降低关键材料成本与环境负担。</p>
+</li>
+</ul>
+<h2>2. 趋势与解读</h2>
+<ul>
+<li>
+<p><a href="https://36kr.com/p/3770819743728131?f=rss">专访荣耀 AI 专家李向东：端侧 AI 方向还没收敛</a> (36氪)
+    随着 AI 能力从旗舰机下放到中端市场，端侧 AI 已成为智能手机标配。荣耀 AI 专家李向东认为，尽管技术方向尚未完全收敛，但 AI 手机是端侧 AI 的最佳载体，未来模型厂商与手机厂商的协同将更加紧密，推动 AI 普惠。</p>
+</li>
+<li>
+<p><a href="https://www.tobyord.com/writing/hourly-costs-for-ai-agents">Are the costs of AI agents also rising exponentially?</a> (Hacker News)
+    文章探讨了 AI 智能体成本随能力提升而指数级增长的趋势。虽然模型推理成本在下降，但复杂任务所需的长时间运行和多步推理可能导致总体成本激增，这对 AI 商业化落地的 ROI（投资回报率）提出了严峻挑战，值得开发者关注。</p>
+</li>
+<li>
+<p><a href="https://risky.biz/risky-bulletin-nist-gives-up-enriching-most-cves/">NIST gives up enriching most CVEs</a> (Hacker News)
+    美国国家标准与技术研究院（NIST）宣布停止丰富大多数 CVE（通用漏洞披露）数据。这意味着在网络安全领域，官方数据库的维护压力已达到极限，未来漏洞分析的负担将更多转移给商业安全厂商和开源社区，安全情报获取门槛可能提高。</p>
+</li>
+<li>
+<p><a href="https://www.infoq.cn/article/h4WPj7MeydhFDpsOqyCl">世界变了、Linus 妥协了？AI 代码可以进 Linux 内核</a> (InfoQ)
+    Linux 内核社区对 AI 生成代码的态度正在发生转变，允许 AI 代码合入但要求人类背书。这一变化标志着开源社区开始正视 AI 编程工具的普及，同时也提出了新的治理问题：如何在利用 AI 提效的同时，确保核心基础设施的代码质量与可维护性。</p>
+</li>
+<li>
+<p><a href="https://36kr.com/p/3770651778761481?f=rss">享刻智能：不追人形机器人，深耕餐饮场景</a> (36kr)
+    在具身智能赛道扎堆布局人形机器人时，享刻智能选择深耕餐饮场景，完成 1.5 亿元 A 融资。这反映了具身智能商业化的一条重要趋势：与其追求通用形态，不如先在特定垂直场景实现商业闭环，解决实际痛点。</p>
+</li>
+</ul>
+<h2>3. 工具与深读</h2>
+<ul>
+<li>
+<p><a href="https://www.infoq.cn/article/ry64GrNLAEEf1qdZABb0?utm_source=rss&amp;utm_medium=article">谷歌基于 Apache 2.0 协议开源 Gemma 4</a> (InfoQ)
+    谷歌宣布基于 Apache 2.0 协议开源 Gemma 4 系列模型，该系列搭载了多模态与智能体能力。此举大幅降低了开发者使用先进模型的门槛，为构建本地化、低延迟的 AI 应用提供了强有力的开源替代方案。</p>
+</li>
+<li>
+<p><a href="https://github.com/smol-machines/smolvm">Show HN: Smol machines – subsecond coldstart, portable virtual machines</a> (Hacker News)
+    SmolVM 是一个展示亚秒级冷启动便携式虚拟机的开源项目。它旨在提供一种轻量级、快速启动的隔离环境，非常适合 Serverless 计算场景和边缘计算应用，为解决传统虚拟机启动慢、资源重的问题提供了新思路。</p>
+</li>
+<li>
+<p><a href="https://github.com/paniclock/paniclock/">Show HN: PanicLock – Close your MacBook lid disable TouchID</a> (Hacker News)
+    这是一款 macOS 开源小工具，旨在增强物理安全。合上 MacBook 盖子时，它会自动禁用 TouchID，强制要求密码解锁。作者灵感来源于记者被迫解锁设备的案例，为注重隐私保护的用户提供了一层物理防御机制。</p>
+</li>
+<li>
+<p><a href="https://www.infoq.cn/article/d2ODNNUg38yOQZyuUwUY?utm_source=rss&amp;utm_medium=article">蚂蚁灵波开源 LingBot-Map</a> (InfoQ)
+    蚂蚁灵波开源了 LingBot-Map 项目，仅需一个 RGB 摄像头，就能让机器人理解真实世界。该项目降低了机器人感知硬件的依赖成本，为移动机器人的导航与避障提供了高性价比的视觉解决方案。</p>
+</li>
+<li>
+<p><a href="https://rileyjshaw.com/blog/introducing-shaderpad/">Introducing: ShaderPad</a> (Hacker News)
+    ShaderPad 是一款新发布的着色器开发工具，旨在简化图形编程流程。它提供了直观的界面和实时预览功能，帮助开发者快速编写和调试着色器代码，是游戏开发者和视觉艺术家的实用利器。</p>
+</li>
+</ul>
+                </div>
+            </article>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            Daily Tech News · 由 GLM-5 自动生成
+        </div>
+    </footer>
+</body>
+</html>
