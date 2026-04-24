@@ -1,0 +1,222 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Tech News | 2026-04-24</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        *, *::before, *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        :root {
+            --bg-primary: #f3f4f6;
+            --bg-secondary: #ffffff;
+            --bg-tertiary: #f9fafb;
+            --border: #e5e7eb;
+            --text-primary: #111827;
+            --text-secondary: #4b5563;
+            --accent: #f97316;
+            --accent-hover: #ea580c;
+        }
+
+        body {
+            font-family: 'Inter', 'Noto Sans SC', sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.6;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 20px;
+            width: 100%;
+        }
+
+        /* Header */
+        header {
+            background: rgba(255, 255, 255, 0.9);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid var(--border);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .header-inner {
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .back-link {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 14px;
+            display: flex;
+            align-items: center;
+            gap: 4px;
+            transition: color 0.2s;
+        }
+
+        .back-link:hover {
+            color: var(--accent);
+        }
+
+        .header-date {
+            font-size: 14px;
+            color: var(--text-secondary);
+            font-family: monospace;
+        }
+
+        /* Main */
+        main {
+            flex: 1;
+            padding: 40px 0;
+        }
+
+        .digest-item {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        }
+
+        .digest-content {
+            padding: 32px;
+        }
+
+        /* Content Styles */
+        .digest-content h1 {
+            font-size: 24px;
+            margin-bottom: 16px;
+            color: var(--text-primary);
+        }
+
+        .digest-content h2 {
+            font-size: 18px;
+            margin: 32px 0 16px;
+            padding-bottom: 8px;
+            border-bottom: 1px solid var(--border);
+            color: var(--text-primary);
+        }
+
+        .digest-content p {
+            margin-bottom: 16px;
+            color: var(--text-secondary);
+        }
+
+        .digest-content ul {
+            padding-left: 20px;
+            margin-bottom: 24px;
+        }
+
+        .digest-content li {
+            margin-bottom: 12px;
+            color: var(--text-secondary);
+        }
+
+        .digest-content a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+
+        .digest-content a:hover {
+            text-decoration: underline;
+        }
+
+        /* Footer */
+        footer {
+            padding: 32px 0;
+            text-align: center;
+            color: var(--text-secondary);
+            font-size: 13px;
+            border-top: 1px solid var(--border);
+            background: var(--bg-secondary);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-inner">
+                <a href="../index.html" class="back-link">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M19 12H5M12 19l-7-7 7-7"/>
+                    </svg>
+                    Daily Tech News
+                </a>
+                <span class="header-date">2026-04-24</span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <article class="digest-item">
+                <div class="digest-content">
+                    <h1>Daily Tech News | 2026-04-24</h1>
+<p>OpenAI 与 DeepSeek 同日发布重磅模型更新，GPT-5.5 与 DeepSeek-v4 正面交锋，大模型竞赛进入新阶段。Meta 宣布裁员 10%，科技巨头在 AI 投入与人力成本控制间寻求新平衡。此外，供应链安全与 AI 代码生成比例的激增，正深刻改变着开发者的工作范式。</p>
+<h2>1. 今日必读</h2>
+<ul>
+<li><a href="https://openai.com/index/introducing-gpt-5-5/">OpenAI 发布 GPT-5.5 系列模型</a> (Hacker News)
+  OpenAI 正式推出 GPT-5.5 模型，据称在多项基准测试中表现优异。奥特曼晒出黄仁勋内部信显示英伟达已全员使用相关编程助手，标志着大模型在代码生成领域的应用进一步深化。</li>
+<li><a href="https://36kr.com/p/3780240752186627?f=rss">DeepSeek 官网上线 DeepSeek-v4 接口文档</a> (36kr)
+  DeepSeek 正式发布 v4 版本模型，包含 Deepseek-v4-flash 和 DeepSeek-v4-pro。国产大模型持续迭代，以更优的性能和成本结构与国际巨头形成直接竞争态势。</li>
+<li><a href="https://www.bloomberg.com/news/articles/2026-04-23/meta-tells-staff-it-will-cut-10-of-jobs-in-push-for-efficiency">Meta 告知员工将裁员 10%</a> (Hacker News)
+  Meta 宣布将裁员约 10%，旨在提升运营效率。这是继此前大规模裁员后的进一步调整，显示科技巨头在 AI 巨额投入背景下，仍在进行严格的人力成本优化。</li>
+<li><a href="https://36kr.com/p/3780189527741441?f=rss">Cognition AI 拟以 250 亿美元估值进行融资</a> (36kr)
+  AI 初创公司 Cognition AI（Devin 母公司）正进行新一轮融资谈判，估值高达 250 亿美元。此举显示资本市场对 AI Agent（智能体）赛道的持续看好与疯狂追捧。</li>
+<li><a href="https://socket.dev/blog/bitwarden-cli-compromised">Bitwarden CLI 在供应链攻击中被植入后门</a> (Hacker News)
+  流行密码管理工具 Bitwarden 的命令行工具（CLI）在 Checkmarx 发起的供应链攻击活动中被发现受损。该事件再次敲响开源供应链安全的警钟，开发者需立即检查依赖版本。</li>
+</ul>
+<h2>2. 趋势与解读</h2>
+<ul>
+<li><a href="https://www.infoq.cn/article/JqSF1ckIU0gIx4OOByUD?utm_source=rss&amp;utm_medium=article">谷歌宣告 75% 代码由 AI 生成</a> (InfoQ)
+  谷歌宣布全面转向智能体工作流，新代码中 75% 由 AI 生成。这标志着软件开发范式正在发生根本性转变，AI 辅助编程已从“尝鲜”变为主流，开发者需重新审视核心竞争力。</li>
+<li><a href="https://www.v2ex.com/t/1207970">AI 带来的革命性改变为何还没发生？</a> (V2EX)
+  社区热议 AI 虽然工具属性极强，但宏大的“革命性”叙事尚未真正落地到大多数人的生活轨迹。这反映出当前 AI 技术在 C 端应用落地上的断层，以及公众对技术期望的理性回调。</li>
+<li><a href="https://36kr.com/p/3778772970444033?f=rss">小红书尝试用“活人感”做科技社区</a> (36kr)
+  面对大厂 AI 入口竞争，小红书试图通过引入 KOL/KOC 打造具有“活人感”的科技社区。这表明内容平台正在探索差异化路径，试图用真实体验对抗 AI 生成内容的泛滥。</li>
+<li><a href="https://36kr.com/p/3779194648876292?f=rss">速腾聚创发布全球首颗 2160 线 SPAD-SoC</a> (36kr)
+  速腾聚创发布“凤凰芯片”，实现超 400 万像素分辨率。激光雷达行业开启“像素竞赛”，硬件性能的爆发将推动高阶智驾向更安全、更远距离感知演进。</li>
+<li><a href="https://www.v2ex.com/t/1208157">网传问界雪地白羊 AEB 演示涉嫌造假</a> (V2EX)
+  有用户指出问界发布会宣传片中存在光影逻辑矛盾和穿帮镜头，质疑其 AEB 功能演示为摆拍。该事件引发对车企营销真实性的关注，技术宣传与实际效果的一致性成为消费者关注焦点。</li>
+</ul>
+<h2>3. 工具与深读</h2>
+<ul>
+<li><a href="https://github.com/refactoringhq/tolaria">Tolaria：开源 macOS Markdown 知识库管理工具</a> (Hacker News)
+  一款专为 macOS 设计的开源应用，旨在帮助用户管理大规模的 Markdown 笔记和知识库。适合长期写作者和知识工作者，提供了高效的本地化管理方案。</li>
+<li><a href="https://github.com/Infisical/agent-vault">Agent Vault：面向 AI 智能体的凭证代理</a> (Hacker News)
+  一个开源的 HTTP 凭证代理和保险库，专门为 AI 智能体设计。它解决了智能体在执行任务时的安全认证与凭证管理难题，提升了 AI Agent 的安全性。</li>
+<li><a href="https://developers.googleblog.com/torchtpu-running-pytorch-natively-on-tpus-at-google-scale/">TorchTPU：在 TPU 上原生运行 PyTorch</a> (Hacker News)
+  Google 发布 TorchTPU，支持在 Google 规模的 TPU 上原生运行 PyTorch。该项目打破了框架与硬件的壁垒，为开发者提供了更灵活的高性能计算选择。</li>
+<li><a href="https://36kr.com/p/3780221128725507?f=rss">万兴脑图上线 AI Agent 功能</a> (36kr)
+  万兴科技推出对话驱动型 AI 知识工作台，成为国内首个支持 AI Agent 的专业思维导图软件。用户可通过对话完成思维导图的构建与知识管理，提升办公效率。</li>
+<li><a href="https://www.v2ex.com/t/1208051">V2EX 热议：当前节点购买 iPhone 17 的风险</a> (V2EX)
+  网友提醒目前非官方渠道的后封机、换屏机泛滥，普通人难以分辨。该讨论为计划购机的用户提供了实用的避坑指南，建议优先选择官方渠道以规避风险。</li>
+</ul>
+                </div>
+            </article>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            Daily Tech News · 由 GLM-5 自动生成
+        </div>
+    </footer>
+</body>
+</html>
