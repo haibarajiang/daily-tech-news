@@ -1,0 +1,252 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Tech News | 2026-04-29</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        *, *::before, *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        :root {
+            --bg-primary: #f3f4f6;
+            --bg-secondary: #ffffff;
+            --bg-tertiary: #f9fafb;
+            --border: #e5e7eb;
+            --text-primary: #111827;
+            --text-secondary: #4b5563;
+            --accent: #f97316;
+            --accent-hover: #ea580c;
+        }
+
+        body {
+            font-family: 'Inter', 'Noto Sans SC', sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.6;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 20px;
+            width: 100%;
+        }
+
+        /* Header */
+        header {
+            background: rgba(255, 255, 255, 0.9);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid var(--border);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .header-inner {
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .back-link {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 14px;
+            display: flex;
+            align-items: center;
+            gap: 4px;
+            transition: color 0.2s;
+        }
+
+        .back-link:hover {
+            color: var(--accent);
+        }
+
+        .header-date {
+            font-size: 14px;
+            color: var(--text-secondary);
+            font-family: monospace;
+        }
+
+        /* Main */
+        main {
+            flex: 1;
+            padding: 40px 0;
+        }
+
+        .digest-item {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        }
+
+        .digest-content {
+            padding: 32px;
+        }
+
+        /* Content Styles */
+        .digest-content h1 {
+            font-size: 24px;
+            margin-bottom: 16px;
+            color: var(--text-primary);
+        }
+
+        .digest-content h2 {
+            font-size: 18px;
+            margin: 32px 0 16px;
+            padding-bottom: 8px;
+            border-bottom: 1px solid var(--border);
+            color: var(--text-primary);
+        }
+
+        .digest-content p {
+            margin-bottom: 16px;
+            color: var(--text-secondary);
+        }
+
+        .digest-content ul {
+            padding-left: 20px;
+            margin-bottom: 24px;
+        }
+
+        .digest-content li {
+            margin-bottom: 12px;
+            color: var(--text-secondary);
+        }
+
+        .digest-content a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+
+        .digest-content a:hover {
+            text-decoration: underline;
+        }
+
+        /* Footer */
+        footer {
+            padding: 32px 0;
+            text-align: center;
+            color: var(--text-secondary);
+            font-size: 13px;
+            border-top: 1px solid var(--border);
+            background: var(--bg-secondary);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-inner">
+                <a href="../index.html" class="back-link">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M19 12H5M12 19l-7-7 7-7"/>
+                    </svg>
+                    Daily Tech News
+                </a>
+                <span class="header-date">2026-04-29</span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <article class="digest-item">
+                <div class="digest-content">
+                    <h1>Daily Tech News | 2026-04-29</h1>
+<p>今日科技圈迎来重磅合作，OpenAI 模型正式入驻 Amazon Bedrock，重塑云服务 AI 格局。国内方面，百度推行职级体系改革，腾讯发布知识 Agent，AI 应用落地进一步加速。此外，GitHub 曝出高危漏洞，开发者需警惕安全风险。</p>
+<h2>1. 今日必读</h2>
+<ul>
+<li>
+<p><a href="https://stratechery.com/2026/an-interview-with-openai-ceo-sam-altman-and-aws-ceo-matt-garman-about-bedrock-managed-agents/">OpenAI models coming to Amazon Bedrock</a> (Hacker News)
+    OpenAI 与 AWS 达成重磅合作，OpenAI 模型将正式登陆 Amazon Bedrock 平台。这意味着企业用户可以在 AWS 托管环境中直接调用 GPT 系列模型，打破了以往云厂商与模型厂商的单一绑定格局，为企业级 AI 应用部署提供了更灵活、合规的选择。</p>
+</li>
+<li>
+<p><a href="https://www.wiz.io/blog/github-rce-vulnerability-cve-2026-3854">GitHub RCE Vulnerability: CVE-2026-3854 Breakdown</a> (Hacker News)
+    安全研究人员披露 GitHub 存在远程代码执行漏洞 CVE-2026-3854。该漏洞可能允许攻击者在特定条件下执行恶意代码，对全球软件开发供应链安全构成严重威胁。建议开发者及企业用户密切关注官方修复进度，排查潜在风险。</p>
+</li>
+<li>
+<p><a href="https://36kr.com/p/3787150633065728">百度职级体系大调整：字母标签改为5级至12级数字职级体系</a> (36kr)
+    百度发布全员信宣布职级体系改革，废除原有的字母职级标签，改为 5 级至 12 级数字职级体系。此举旨在打破大厂“职级通胀”与层级固化，回归以贡献和价值为核心的评估导向，可能会引发国内互联网大厂新一轮的组织架构调整潮。</p>
+</li>
+<li>
+<p><a href="https://mitchellh.com/writing/ghostty-leaving-github">Ghostty is leaving GitHub</a> (Hacker News)
+    备受关注的终端模拟器 Ghostty 宣布离开 GitHub，迁移至自建平台。作者 Mitchell Hashimoto 解释了离开原因，主要涉及对平台功能方向及用户体验的考量。这一举动引发了社区关于开源项目托管平台依赖与自主权的深度讨论。</p>
+</li>
+<li>
+<p><a href="https://36kr.com/p/3787291440831488">2025年我国全年词元累计调用量达21100万亿</a> (36kr)
+    《全国数据资源调查报告》显示，2025 年我国全年词元累计调用量达 21100 万亿，日均调用量呈指数级增长。这一数据直观反映了国内大模型应用的爆发式普及，算力需求与数据资源已成为驱动 AI 产业创新发展的核心引擎。</p>
+</li>
+</ul>
+<h2>2. 趋势与解读</h2>
+<ul>
+<li>
+<p><a href="https://36kr.com/p/3787314918743047">腾讯ima推出全新知识Agent——copilot</a> (36kr)
+    腾讯 ima 发布知识 Agent“copilot”，支持用户创建专属 Agent，具备记忆系统以记住用户背景与习惯。这标志着 Agent 正从单一任务处理向具备长期记忆和个性化服务能力的“数字助手”演进，跨场景连续交互能力成为竞争焦点。</p>
+</li>
+<li>
+<p><a href="https://www.mendral.com/blog/frontier-model-lower-costs">We decreased our LLM costs with Opus</a> (Hacker News)
+    一篇热门文章分享了团队如何利用 Opus 模型降低整体 LLM 成本的经验。文章指出，通过优化提示词工程和任务分配策略，高端模型在特定复杂场景下反而比廉价模型更具性价比。这为企业在追求 AI 降本增效时提供了反直觉但实用的思路。</p>
+</li>
+<li>
+<p><a href="https://www.infoq.cn/article/3kfZZXewSZzErupjYGkT">阿里HappyHorse开启灰测，720P视频生成低至0.44元/秒</a> (InfoQ)
+    阿里巴巴视频生成模型 HappyHorse 开启灰度测试，将 720P 视频生成成本降至 0.44 元/秒。随着生成式 AI 竞赛进入下半场，成本控制与商业化落地成为关键，低价策略有望加速 AI 视频在短剧、营销等领域的规模化应用。</p>
+</li>
+<li>
+<p><a href="https://legallayer.substack.com/p/who-owns-the-claude-code-wrote">Who owns the code Claude Code wrote?</a> (Hacker News)
+    随着 AI 编程工具普及，代码版权归属问题日益凸显。文章探讨了由 Claude Code 生成的代码在法律层面的所有权界定，分析了现有法律框架下的模糊地带。对于企业引入 AI 辅助开发而言，这已成为不可忽视的合规风险点。</p>
+</li>
+<li>
+<p><a href="https://www.v2ex.com/t/1209118">公司买 api 一般是官 key 还是中转？</a> (V2EX)
+    V2EX 热帖讨论企业采购 API 的合规困境：老板要求嵌入 Claude 但拒绝中转站，国内却难寻官方货源。这折射出国内企业接入海外顶尖大模型时的普遍痛点——在数据合规、采购渠道与使用成本之间寻找平衡点。</p>
+</li>
+</ul>
+<h2>3. 工具与深读</h2>
+<ul>
+<li>
+<p><a href="https://www.warp.dev/blog/warp-is-now-open-source">Warp is now open-source</a> (Hacker News)
+    现代化终端工具 Warp 宣布开源。Warp 以其 AI 集成和现代化的 UI 交互著称，此次开源将允许开发者更深入地定制和扩展终端功能，也为终端工具市场的竞争格局带来了新的变数，值得开发者关注。</p>
+</li>
+<li>
+<p><a href="https://github.com/localsend/localsend">Localsend: An open-source cross-platform alternative to AirDrop</a> (Hacker News)
+    LocalSend 是一款开源的跨平台文件传输工具，被视为 AirDrop 的替代品。它无需互联网连接，通过本地 Wi-Fi 即可在手机、电脑间高速传输文件，解决了跨系统生态传输难的痛点，适合注重隐私与便捷性的用户。</p>
+</li>
+<li>
+<p><a href="https://www.infoq.cn/article/YzBjivSoby8NR3gPWRtR">小米万亿模型全面开源：MIT 协议、1M 上下文</a> (InfoQ)
+    小米宣布全面开源其万亿参数模型，采用 MIT 协议并支持 1M 上下文窗口。尽管文章指出其在某些基准上仍不及 DeepSeek，但宽松的开源协议和超长上下文特性，使其成为开发者在构建长文本应用时的一个有力选择。</p>
+</li>
+<li>
+<p><a href="https://github.com/trycua/cua">Show HN: Drive any macOS app in the background without stealing the cursor</a> (Hacker News)
+    开发者发布了一个名为 CUA 的项目，允许 AI Agent 在后台驱动 macOS 应用而不抢占鼠标光标。该项目受 Codex Computer-Use 启发，解决了 GUI 自动化测试和 Agent 操作电脑时的交互冲突问题，极具实用价值。</p>
+</li>
+<li>
+<p><a href="https://www.infoq.cn/article/R1KzpDB623lZyKZp2Q1U">全面开源！商汤日日新SenseNova U1发布</a> (InfoQ)
+    商汤科技发布“日日新”SenseNova U1 模型并宣布全面开源。新模型致力于统一理解与生成能力，标志着国产大模型在多模态融合领域的进一步探索。开发者可通过开源社区获取模型权重，进行本地化部署与二次开发。</p>
+</li>
+</ul>
+                </div>
+            </article>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            Daily Tech News · 由 GLM-5 自动生成
+        </div>
+    </footer>
+</body>
+</html>
