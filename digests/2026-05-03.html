@@ -1,0 +1,252 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Tech News | 2026-05-03</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        *, *::before, *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        :root {
+            --bg-primary: #f3f4f6;
+            --bg-secondary: #ffffff;
+            --bg-tertiary: #f9fafb;
+            --border: #e5e7eb;
+            --text-primary: #111827;
+            --text-secondary: #4b5563;
+            --accent: #f97316;
+            --accent-hover: #ea580c;
+        }
+
+        body {
+            font-family: 'Inter', 'Noto Sans SC', sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.6;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 20px;
+            width: 100%;
+        }
+
+        /* Header */
+        header {
+            background: rgba(255, 255, 255, 0.9);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid var(--border);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .header-inner {
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .back-link {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 14px;
+            display: flex;
+            align-items: center;
+            gap: 4px;
+            transition: color 0.2s;
+        }
+
+        .back-link:hover {
+            color: var(--accent);
+        }
+
+        .header-date {
+            font-size: 14px;
+            color: var(--text-secondary);
+            font-family: monospace;
+        }
+
+        /* Main */
+        main {
+            flex: 1;
+            padding: 40px 0;
+        }
+
+        .digest-item {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        }
+
+        .digest-content {
+            padding: 32px;
+        }
+
+        /* Content Styles */
+        .digest-content h1 {
+            font-size: 24px;
+            margin-bottom: 16px;
+            color: var(--text-primary);
+        }
+
+        .digest-content h2 {
+            font-size: 18px;
+            margin: 32px 0 16px;
+            padding-bottom: 8px;
+            border-bottom: 1px solid var(--border);
+            color: var(--text-primary);
+        }
+
+        .digest-content p {
+            margin-bottom: 16px;
+            color: var(--text-secondary);
+        }
+
+        .digest-content ul {
+            padding-left: 20px;
+            margin-bottom: 24px;
+        }
+
+        .digest-content li {
+            margin-bottom: 12px;
+            color: var(--text-secondary);
+        }
+
+        .digest-content a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+
+        .digest-content a:hover {
+            text-decoration: underline;
+        }
+
+        /* Footer */
+        footer {
+            padding: 32px 0;
+            text-align: center;
+            color: var(--text-secondary);
+            font-size: 13px;
+            border-top: 1px solid var(--border);
+            background: var(--bg-secondary);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-inner">
+                <a href="../index.html" class="back-link">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M19 12H5M12 19l-7-7 7-7"/>
+                    </svg>
+                    Daily Tech News
+                </a>
+                <span class="header-date">2026-05-03</span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <article class="digest-item">
+                <div class="digest-content">
+                    <h1>Daily Tech News | 2026-05-03</h1>
+<p>今日科技圈风波不断，马斯克承认蒸馏 ChatGPT 引发争议，苹果误打包文件坐实内部使用 Claude。AI 能力持续突破，Claude 发现 Linux 内核漏洞，马里兰州则率先立法禁止 AI 驱动的杂货涨价，技术落地与监管博弈同步加剧。</p>
+<h2>1. 今日必读</h2>
+<ul>
+<li>
+<p><a href="https://36kr.com/p/3791460373929221">马斯克翻车了！一边告OpenAI，一边偷偷蒸馏ChatGPT</a> (36kr)
+  马斯克在起诉OpenAI的法庭现场承认，其旗下xAI的Grok模型蒸馏了ChatGPT。这一言论与其对OpenAI“背叛使命”的指控形成讽刺性对比，引发了关于AI模型知识产权与数据来源的激烈讨论。</p>
+</li>
+<li>
+<p><a href="https://36kr.com/p/3791662444911617">苹果官方App误打包了Claude.md，这么大的公司也Vibe Coding啊？</a> (36kr)
+  苹果官方应用中意外包含了Claude.md配置文件，证实了苹果内部正在使用Claude Code构建生产级应用。这表明即便是科技巨头，也已深度接纳AI辅助编程工具进入核心开发流程。</p>
+</li>
+<li>
+<p><a href="https://www.infoq.cn/article/5RYdZtLgisqRJ65zJBpo">Claude Code发现了Linux内核中隐藏23年的可远程利用漏洞</a> (InfoQ)
+  AI编程工具再次证明其安全价值，Claude Code成功发现了Linux内核中一个隐藏长达23年的远程可利用漏洞。这一发现标志着AI在代码审计与安全防护领域的应用进入了新的实战阶段。</p>
+</li>
+<li>
+<p><a href="https://www.nytimes.com/2026/05/01/business/surveillance-pricing-groceries-maryland.html">Maryland Is First to Ban A.I.-Driven Price Increases in Grocery Stores</a> (Hacker News)
+  马里兰州成为全美首个禁止杂货店使用AI驱动动态涨价的州。该立法旨在防止商家利用消费者数据进行个性化定价欺诈，标志着监管层面对AI在民生领域滥用的正式介入。</p>
+</li>
+<li>
+<p><a href="https://36kr.com/p/3791796527602951">又一算力独角兽，冲击IPO</a> (36kr)
+  源自华为X86服务器业务的超聚变数字技术股份有限公司已完成IPO辅导，估值超500亿元。作为算力基础设施的重要玩家，其上市进程折射出市场对算力资源的持续高需求。</p>
+</li>
+</ul>
+<h2>2. 趋势与解读</h2>
+<ul>
+<li>
+<p><a href="https://36kr.com/p/3789475357400068">卓驭于贝贝：向物理AI转型，是生存法则的必然选择</a> (36kr)
+  智驾厂商卓驭科技指出，向“物理AI”转型并非资本故事，而是关乎存亡的必经之路。随着智能驾驶竞争升级，单纯算法已不足以应对复杂物理世界，多模态基础模型成为新战场。</p>
+</li>
+<li>
+<p><a href="https://36kr.com/p/3792155815304450">在硅谷，中美具身公司聊了聊了4个问题的解法</a> (36kr)
+  具身智能行业进入规模化落地竞速阶段，智元机器人万台量产下线、宇树科技营收激增。行业焦点已从概念验证转向“低价、高性能”的商业化比拼，试图解决量产与成本的矛盾。</p>
+</li>
+<li>
+<p><a href="https://github.com/microsoft/vscode/pull/310226">VS Code inserting 'Co-Authored-by Copilot' into commits regardless of usage</a> (Hacker News)
+  VS Code被发现在提交代码时自动插入“Co-Authored-by Copilot”信息，即便用户未实际使用该功能。这引发了开发者对工具透明度及AI署名机制的争议，反映了AI工具集成中的边界问题。</p>
+</li>
+<li>
+<p><a href="https://www.v2ex.com/t/1210002">安卓的权限管理是假的，拒绝了仍然可以获取</a> (V2EX)
+  有用户测试发现，123云盘App在用户拒绝剪贴板访问权限后仍能读取内容，引发对安卓权限管理机制的信任危机。这暴露了部分App通过技术手段绕过系统限制，隐私保护仍需底层加固。</p>
+</li>
+<li>
+<p><a href="https://blog.feld.me/posts/2026/04/open-source-does-not-imply-open-community/">Open Source Does Not Imply Open Community</a> (Hacker News)
+  文章探讨了开源代码与开放社区之间的鸿沟，指出许多项目虽开放源码，但社区治理依然封闭。这一现象引发了关于开源定义、治理模式以及开发者权益保护的深层思考。</p>
+</li>
+</ul>
+<h2>3. 工具与深读</h2>
+<ul>
+<li>
+<p><a href="https://github.com/mahimairaja/voiceai">Voice-AI-for-Beginners – A curated learning path for developers</a> (Hacker News)
+  这是一个面向开发者的语音AI学习路径项目，汇总了从基础到进阶的核心资源。对于希望切入语音交互赛道的工程师而言，这是一份系统性的入门指南与实践参考。</p>
+</li>
+<li>
+<p><a href="https://www.infoq.cn/article/W1YiyHH4UXv05AqpiHag">Mistral AI 推出 Workflows，用于编排企业 AI 工作流</a> (InfoQ)
+  Mistral AI发布Workflows工具，旨在帮助企业更高效地编排和自动化AI任务流。该工具降低了复杂AI应用的集成门槛，让企业能更灵活地构建定制化智能业务流程。</p>
+</li>
+<li>
+<p><a href="https://www.infoq.cn/article/ihRlIjt3N5seuQN27OQe">谷歌开源“Agent Skill 超级工具箱”，云、库、引擎、AI全线打通</a> (InfoQ)
+  谷歌推出开源Agent Skill工具箱，打通了云服务、代码库与AI引擎之间的壁垒。开发者可利用该工具箱快速构建具备特定技能的智能体，大幅提升Agent开发效率。</p>
+</li>
+<li>
+<p><a href="https://ladybird.org/newsletter/2026-04-30/">This Month in Ladybird - April 2026</a> (Hacker News)
+  Ladybird浏览器项目发布了4月更新报告，展示了这一从零开始构建的独立浏览器引擎的最新进展。对于关注Web标准与浏览器底层架构的开发者来说，具有极高的技术参考价值。</p>
+</li>
+<li>
+<p><a href="https://www.v2ex.com/t/1210012">2026 年了， Notepad++ 对比 VSCode ，优势在哪？</a> (V2EX)
+  社区热议经典编辑器Notepad++在VSCode统治时代的生存空间。讨论指出，尽管VSCode功能强大，但Notepad++在轻量级、启动速度及特定场景下仍有其不可替代的优势。</p>
+</li>
+</ul>
+                </div>
+            </article>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            Daily Tech News · 由 GLM-5 自动生成
+        </div>
+    </footer>
+</body>
+</html>
