@@ -1,0 +1,222 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Tech News | 2026-05-09</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        *, *::before, *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        :root {
+            --bg-primary: #f3f4f6;
+            --bg-secondary: #ffffff;
+            --bg-tertiary: #f9fafb;
+            --border: #e5e7eb;
+            --text-primary: #111827;
+            --text-secondary: #4b5563;
+            --accent: #f97316;
+            --accent-hover: #ea580c;
+        }
+
+        body {
+            font-family: 'Inter', 'Noto Sans SC', sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.6;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 20px;
+            width: 100%;
+        }
+
+        /* Header */
+        header {
+            background: rgba(255, 255, 255, 0.9);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid var(--border);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .header-inner {
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .back-link {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 14px;
+            display: flex;
+            align-items: center;
+            gap: 4px;
+            transition: color 0.2s;
+        }
+
+        .back-link:hover {
+            color: var(--accent);
+        }
+
+        .header-date {
+            font-size: 14px;
+            color: var(--text-secondary);
+            font-family: monospace;
+        }
+
+        /* Main */
+        main {
+            flex: 1;
+            padding: 40px 0;
+        }
+
+        .digest-item {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        }
+
+        .digest-content {
+            padding: 32px;
+        }
+
+        /* Content Styles */
+        .digest-content h1 {
+            font-size: 24px;
+            margin-bottom: 16px;
+            color: var(--text-primary);
+        }
+
+        .digest-content h2 {
+            font-size: 18px;
+            margin: 32px 0 16px;
+            padding-bottom: 8px;
+            border-bottom: 1px solid var(--border);
+            color: var(--text-primary);
+        }
+
+        .digest-content p {
+            margin-bottom: 16px;
+            color: var(--text-secondary);
+        }
+
+        .digest-content ul {
+            padding-left: 20px;
+            margin-bottom: 24px;
+        }
+
+        .digest-content li {
+            margin-bottom: 12px;
+            color: var(--text-secondary);
+        }
+
+        .digest-content a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+
+        .digest-content a:hover {
+            text-decoration: underline;
+        }
+
+        /* Footer */
+        footer {
+            padding: 32px 0;
+            text-align: center;
+            color: var(--text-secondary);
+            font-size: 13px;
+            border-top: 1px solid var(--border);
+            background: var(--bg-secondary);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-inner">
+                <a href="../index.html" class="back-link">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M19 12H5M12 19l-7-7 7-7"/>
+                    </svg>
+                    Daily Tech News
+                </a>
+                <span class="header-date">2026-05-09</span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <article class="digest-item">
+                <div class="digest-content">
+                    <h1>Daily Tech News | 2026-05-09</h1>
+<p>今日科技圈迎来重磅融资潮，DeepSeek 拟募资 500 亿元刷新纪录，AWS 宕机再次敲响云依赖警钟。AI 编程工具引发对代码质量的反思，而小红书的 AI 转向折射出大厂的焦虑与加速。此外，Mojo 1.0 Beta 发布及多项开源工具值得关注。</p>
+<h2>1. 今日必读</h2>
+<ul>
+<li><a href="https://36kr.com/p/3801348046151428?f=rss">DeepSeek拟募资最高500亿元</a> (36kr)
+    据报道，中国 AI 公司 DeepSeek 拟募资最高 500 亿元，这将成为中国人工智能领域规模最大的融资之一。此举显示了资本市场对本土大模型研发的持续看好，资金将用于推动下一代通用人工智能技术的突破。</li>
+<li><a href="https://www.cnbc.com/2026/05/08/aws-outage-data-center-fanduel-coinbase.html">AWS North Virginia data center outage</a> (Hacker News)
+    AWS 北弗吉尼亚数据中心发生严重宕机事故，导致 FanDuel、Coinbase 等多家依赖其服务的主流网站瘫痪。此次事故预计恢复时间较长，再次引发了业界对云服务单点故障风险及企业灾备策略的广泛关注。</li>
+<li><a href="https://36kr.com/newsflashes/3801360095289088?f=rss">英特尔与苹果据悉达成初步协议</a> (36kr)
+    报道称英特尔已与苹果达成初步协议，将为后者部分设备制造芯片，双方已谈判一年多。受此消息影响，英特尔股价收盘涨超 13%，这标志着英特尔代工业务在争取大客户方面取得了关键进展。</li>
+<li><a href="https://36kr.com/newsflashes/3801377962090247?f=rss">谷歌旗下Isomorphic Labs拟筹集逾20亿美元</a> (36kr)
+    谷歌 DeepMind 分拆的 AI 药物研发公司 Isomorphic Labs 正洽谈新轮融资，金额超 20 亿美元。由 Thrive Capital 领投，Alphabet 跟投，显示出 AI 在生物医药领域的商业化潜力正获得顶级资本加持。</li>
+<li><a href="https://36kr.com/newsflashes/3801408298065416?f=rss">AI芯片制造商Cerebras拟上调IPO价格区间</a> (36kr)
+    AI 芯片独角兽 Cerebras Systems 因需求火爆，拟上调 IPO 价格区间至每股 125-135 美元，认购订单超 20 倍。公司寻求筹集 35 亿美元，反映出市场对高性能 AI 算力硬件的极度渴求。</li>
+</ul>
+<h2>2. 趋势与解读</h2>
+<ul>
+<li><a href="https://www.v2ex.com/t/1211151">AI写代码把Bug重新引入生产环境</a> (V2EX)
+    有开发者反馈，AI 编程助手因缺乏上下文记忆，将三个月前已修复的浮点数精度 Bug 重新写回代码库。这一案例揭示了当前 AI 编程工具在长期维护和代码一致性上的短板，提醒开发者需加强对 AI 生成代码的审查。</li>
+<li><a href="https://36kr.com/p/3799028783439111?f=rss">小红书四年AI路：从犹豫到突然加速</a> (36kr)
+    文章复盘了小红书在 AI 时代的战略变迁，从早期的克制与犹豫，到近期因 FOMO 情绪而突然加速。这折射出内容社区平台在“活人感”与算法效率之间的艰难平衡，以及大厂在 AI 浪潮中不敢掉队的焦虑。</li>
+<li><a href="https://www.pcmag.com/news/meta-shuts-down-end-to-end-encryption-for-instagram-dms-messaging">Meta Shuts Down End-to-End Encryption for Instagram Messaging</a> (Hacker News)
+    Meta 被曝关闭了 Instagram 消息的端到端加密功能，引发了关于隐私保护的担忧。在各国监管日益严格的背景下，科技巨头在用户隐私安全与合规监管之间的博弈愈发复杂，此举可能意味着平台策略的重大调整。</li>
+<li><a href="https://www.infoq.cn/article/7dyslCPBMAPyLporTATv?utm_source=rss&amp;utm_medium=article">Kubernetes 被 AI 打回“半成品”</a> (InfoQ)
+    Kubernetes 之父发出警告，认为 AI 生成的代码虽然速度快，但可能导致系统架构变得脆弱，甚至让 K8s 这种成熟项目面临“半成品”风险。这强调了在 AI 辅助开发时代，工程师对系统底层原理理解的重要性不降反升。</li>
+<li><a href="https://www.jefftk.com/p/ai-is-breaking-two-vulnerability-cultures">AI is breaking two vulnerability cultures</a> (Hacker News)
+    文章探讨了 AI 如何打破传统的安全漏洞文化与脚本小子文化。随着 AI 能够自动化发现并利用漏洞，安全防御的门槛被迫提高，传统的依赖保密或简单修补的策略已难以应对 AI 驱动的攻击手段。</li>
+</ul>
+<h2>3. 工具与深读</h2>
+<ul>
+<li><a href="https://www.v2ex.com/t/1211200">GenericAgent：Claude Code的绝佳替代</a> (V2EX)
+    一位计算机博士在长期使用 Claude Code 后，因无法忍受其缺点而开发了开源替代品 GenericAgent。该项目旨在提供更优的编码辅助体验，适合对现有 AI 编程工具有更高要求的开发者尝试和贡献。</li>
+<li><a href="https://mojolang.org/">Mojo 1.0 Beta</a> (Hacker News)
+    Mojo 语言正式发布 1.0 Beta 版本，旨在结合 Python 的易用性与 C 语言的性能。作为 AI 开发领域备受期待的新语言，Mojo 允许开发者在同一代码库中同时进行原型设计和生产级优化，有望降低高性能计算的开发门槛。</li>
+<li><a href="https://www.wiisfi.com/">Wi is Fi：理解 Wi-Fi 4/5/6/6E/7/8</a> (Hacker News)
+    这是一个详尽的技术科普站点，深入解析了 Wi-Fi 各代标准（802.11 n/ac/ax/be/bn）的区别与应用场景。对于网络工程师和极客来说，这是快速理解无线协议演进、优化家庭或企业网络配置的优质参考资料。</li>
+<li><a href="https://www.v2ex.com/t/1211308">以「上下文信息密度」构建最强通用 Agent</a> (V2EX)
+    作者提出以“上下文信息密度”为第一性原理来构建通用 Agent，并分享了详细的设计思路。文章深入探讨了如何让 Agent 更高效地处理信息，对于希望深入理解 AI Agent 架构设计的开发者具有很高的参考价值。</li>
+<li><a href="https://www.infoq.cn/article/w9R1DwXoM3yKbjzcV94H?utm_source=rss&amp;utm_medium=article">DuckLake 1.0：具有SQL目录元数据的数据湖格式</a> (InfoQ)
+    DuckLake 1.0 正式发布，这是一种结合了 SQL 目录元数据的新型数据湖格式。它旨在解决传统数据湖元数据管理混乱的问题，为数据工程师提供更高效、更标准化的数据存储与查询解决方案。</li>
+</ul>
+                </div>
+            </article>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            Daily Tech News · 由 GLM-5 自动生成
+        </div>
+    </footer>
+</body>
+</html>
