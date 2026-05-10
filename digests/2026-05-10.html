@@ -1,0 +1,216 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Tech News | 2026-05-10</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        *, *::before, *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        :root {
+            --bg-primary: #f3f4f6;
+            --bg-secondary: #ffffff;
+            --bg-tertiary: #f9fafb;
+            --border: #e5e7eb;
+            --text-primary: #111827;
+            --text-secondary: #4b5563;
+            --accent: #f97316;
+            --accent-hover: #ea580c;
+        }
+
+        body {
+            font-family: 'Inter', 'Noto Sans SC', sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.6;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 20px;
+            width: 100%;
+        }
+
+        /* Header */
+        header {
+            background: rgba(255, 255, 255, 0.9);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid var(--border);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .header-inner {
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .back-link {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 14px;
+            display: flex;
+            align-items: center;
+            gap: 4px;
+            transition: color 0.2s;
+        }
+
+        .back-link:hover {
+            color: var(--accent);
+        }
+
+        .header-date {
+            font-size: 14px;
+            color: var(--text-secondary);
+            font-family: monospace;
+        }
+
+        /* Main */
+        main {
+            flex: 1;
+            padding: 40px 0;
+        }
+
+        .digest-item {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        }
+
+        .digest-content {
+            padding: 32px;
+        }
+
+        /* Content Styles */
+        .digest-content h1 {
+            font-size: 24px;
+            margin-bottom: 16px;
+            color: var(--text-primary);
+        }
+
+        .digest-content h2 {
+            font-size: 18px;
+            margin: 32px 0 16px;
+            padding-bottom: 8px;
+            border-bottom: 1px solid var(--border);
+            color: var(--text-primary);
+        }
+
+        .digest-content p {
+            margin-bottom: 16px;
+            color: var(--text-secondary);
+        }
+
+        .digest-content ul {
+            padding-left: 20px;
+            margin-bottom: 24px;
+        }
+
+        .digest-content li {
+            margin-bottom: 12px;
+            color: var(--text-secondary);
+        }
+
+        .digest-content a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+
+        .digest-content a:hover {
+            text-decoration: underline;
+        }
+
+        /* Footer */
+        footer {
+            padding: 32px 0;
+            text-align: center;
+            color: var(--text-secondary);
+            font-size: 13px;
+            border-top: 1px solid var(--border);
+            background: var(--bg-secondary);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-inner">
+                <a href="../index.html" class="back-link">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M19 12H5M12 19l-7-7 7-7"/>
+                    </svg>
+                    Daily Tech News
+                </a>
+                <span class="header-date">2026-05-10</span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <article class="digest-item">
+                <div class="digest-content">
+                    <h1>Daily Tech News | 2026-05-10</h1>
+<p>AI 领域今日迎来资本与技术双重震荡：DeepSeek 被曝拟募资最高 500 亿元，英伟达今年股权投资已超 400 亿美元，巨头竞逐态势愈发明显。技术层面，全固态电池迈入规模化市场，Bun 的 Rust 重写版达成高兼容性，而关于 AI 对开发者思维及用户阅读能力的潜在侵蚀，也引发了社区的深刻反思。</p>
+<h2>1. 今日必读</h2>
+<ul>
+<li><a href="https://36kr.com/p/3801348046151428?f=rss">DeepSeek 拟募资最高 500 亿元</a> (36kr)
+    据报道，DeepSeek 正寻求最高 500 亿元人民币的融资，创始人梁文锋个人出资 200 亿。这或将成为中国 AI 公司史上最大规模融资之一，显示出国产大模型在算力军备竞赛中的坚定决心。</li>
+<li><a href="https://36kr.com/p/3802794581991168?f=rss">英伟达今年股权投资已超 400 亿美元</a> (36kr)
+    英伟达通过大手笔投资上下游企业，构建从芯片到 AI 模型的完整生态。这种策略不仅锁定了下游客户，还保障了硬件需求，进一步巩固了其在 AI 产业的霸主地位。</li>
+<li><a href="https://36kr.com/p/3800022822951363?f=rss">第一代全固态电池迈入规模化市场</a> (36kr)
+    「纯锂新能源」宣布完成数千万元 Pre-A+ 轮融资，其自研技术破解了全固态电池固固接触难题。这标志着第一代全固态电池正式迈入规模化市场，有望解决传统锂电池的安全与续航痛点。</li>
+<li><a href="https://www.freebsd.org/security/advisories/FreeBSD-SA-26:13.exec.asc">FreeBSD 修复本地权限提升漏洞</a> (Hacker News)
+    FreeBSD 发布安全公告，修复了一个通过 execve() 实现的本地权限提升漏洞。该漏洞可能允许本地用户获得 root 权限，系统管理员被建议尽快更新补丁以防范安全风险。</li>
+</ul>
+<h2>2. 趋势与解读</h2>
+<ul>
+<li><a href="https://36kr.com/p/3799028783439111?f=rss">小红书四年 AI 路：从犹豫到突然加速</a> (36kr)
+    小红书在 AI 时代经历了从 FOMO、犹豫到突然加速的过程。作为社区属性强的平台，如何在保持“活人感”与算法推荐之间取得平衡，是其 AI 战略的核心挑战，近期已开始加速推进 AI 产品化。</li>
+<li><a href="https://www.infoq.cn/article/QEu6wrKMO0ADmCUUakBm?utm_source=rss&amp;utm_medium=article">紫光股份董事长称 40% 智能体项目将终止</a> (InfoQ)
+    业界领袖指出，当前 AI 智能体热潮下存在泡沫，预计 40% 的项目将走向终止。这提醒业界需理性看待 Agent 落地，避免盲目跟风，应聚焦于解决实际业务痛点的场景。</li>
+<li><a href="https://www.v2ex.com/t/1211427">AI 正在削弱用户的长文阅读能力</a> (V2EX)
+    V2EX 网友讨论指出，过度依赖 AI 总结长文导致用户失去了深度阅读的耐心，甚至出现“不总结不看”的依赖症状。这揭示了 AI 在提升效率的同时，可能带来认知能力退化与思维惰性的隐忧。</li>
+<li><a href="https://twitter.com/jarredsumner/status/2053047748191232310">Bun 实验性 Rust 重写达成 99.8% 兼容</a> (Hacker News)
+    Bun 项目的实验性 Rust 重写在 Linux x64 glibc 上达到了 99.8% 的测试兼容性。这标志着高性能运行时在底层语言优化上迈出关键一步，Rust 正在成为重塑基础设施软件的重要力量。</li>
+</ul>
+<h2>3. 工具与深读</h2>
+<ul>
+<li><a href="https://www.v2ex.com/t/1211434">OpenClacky 1.0 发布，主打省 Token</a> (V2EX)
+    OpenClacky 1.0 正式开源，这是一款主打节省 Token 的开源 AI Agent。相比同类产品，它在完成相同任务时能大幅降低成本，为开发者提供了一个高性价比的 AI 编程辅助选择。</li>
+<li><a href="https://github.com/imtomt/ymawky">用汇编语言构建 Web 服务器</a> (Hacker News)
+    开发者展示了完全用 ARM64 汇编语言编写的静态文件 Web 服务器 ymawky。该项目支持多种 HTTP 请求方法，虽然出于“寻找意义”而作，但极具硬核技术极客精神，适合对底层系统编程感兴趣的开发者阅读。</li>
+<li><a href="https://github.com/nooga/let-go">用 Go 编写的 Clojure 方言 let-go</a> (Hacker News)
+    开发者发布了一款名为 let-go 的 Clojure 方言语言，用纯 Go 编写，冷启动仅需 7ms。它作为静态二进制文件发布，兼容性高且启动速度极快，为 Lisp 爱好者提供了新的轻量级选择。</li>
+<li><a href="https://www.infoq.cn/article/zLaHwePKytptG102IscF?utm_source=rss&amp;utm_medium=article">一位 30 年架构师的 AI 生存指南</a> (InfoQ)
+    文章探讨了在 AI 接管编程后，资深架构师如何保持架构判断力。作者指出“停止编码的那天，就是失去架构判断力的开始”，强调了在 AI 辅助时代，保持对底层逻辑和代码感知的重要性。</li>
+</ul>
+                </div>
+            </article>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            Daily Tech News · 由 GLM-5 自动生成
+        </div>
+    </footer>
+</body>
+</html>
