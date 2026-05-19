@@ -1,0 +1,252 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Tech News | 2026-05-19</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        *, *::before, *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        :root {
+            --bg-primary: #f3f4f6;
+            --bg-secondary: #ffffff;
+            --bg-tertiary: #f9fafb;
+            --border: #e5e7eb;
+            --text-primary: #111827;
+            --text-secondary: #4b5563;
+            --accent: #f97316;
+            --accent-hover: #ea580c;
+        }
+
+        body {
+            font-family: 'Inter', 'Noto Sans SC', sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.6;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 20px;
+            width: 100%;
+        }
+
+        /* Header */
+        header {
+            background: rgba(255, 255, 255, 0.9);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid var(--border);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .header-inner {
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .back-link {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 14px;
+            display: flex;
+            align-items: center;
+            gap: 4px;
+            transition: color 0.2s;
+        }
+
+        .back-link:hover {
+            color: var(--accent);
+        }
+
+        .header-date {
+            font-size: 14px;
+            color: var(--text-secondary);
+            font-family: monospace;
+        }
+
+        /* Main */
+        main {
+            flex: 1;
+            padding: 40px 0;
+        }
+
+        .digest-item {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        }
+
+        .digest-content {
+            padding: 32px;
+        }
+
+        /* Content Styles */
+        .digest-content h1 {
+            font-size: 24px;
+            margin-bottom: 16px;
+            color: var(--text-primary);
+        }
+
+        .digest-content h2 {
+            font-size: 18px;
+            margin: 32px 0 16px;
+            padding-bottom: 8px;
+            border-bottom: 1px solid var(--border);
+            color: var(--text-primary);
+        }
+
+        .digest-content p {
+            margin-bottom: 16px;
+            color: var(--text-secondary);
+        }
+
+        .digest-content ul {
+            padding-left: 20px;
+            margin-bottom: 24px;
+        }
+
+        .digest-content li {
+            margin-bottom: 12px;
+            color: var(--text-secondary);
+        }
+
+        .digest-content a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+
+        .digest-content a:hover {
+            text-decoration: underline;
+        }
+
+        /* Footer */
+        footer {
+            padding: 32px 0;
+            text-align: center;
+            color: var(--text-secondary);
+            font-size: 13px;
+            border-top: 1px solid var(--border);
+            background: var(--bg-secondary);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-inner">
+                <a href="../index.html" class="back-link">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M19 12H5M12 19l-7-7 7-7"/>
+                    </svg>
+                    Daily Tech News
+                </a>
+                <span class="header-date">2026-05-19</span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <article class="digest-item">
+                <div class="digest-content">
+                    <h1>Daily Tech News | 2026-05-19</h1>
+<p>今日科技圈重磅消息频出，马斯克起诉 OpenAI 一案尘埃落定，Anthropic 则通过收购强化 API 生态。国内方面，阿里云与百度财报揭示了 AI 云市场的强劲增长，而番茄小说推动 AI 动漫进军院线，标志着 AIGC 商业化落地进一步深化。</p>
+<h2>1. 今日必读</h2>
+<ul>
+<li>
+<p><a href="https://techcrunch.com/2026/05/18/elon-musk-has-lost-his-lawsuit-against-sam-altman-and-openai/">马斯克起诉 Sam Altman 和 OpenAI 案败诉</a> (Hacker News)
+    法院裁定马斯克在与 Sam Altman 及 OpenAI 的诉讼中败诉，这场备受瞩目的法律纠纷暂告一段落。该结果意味着 OpenAI 的架构与运营模式在法律层面获得支持，消除了笼罩在公司头上的重大不确定性，有利于其继续推进 AGI 研发与商业化进程。</p>
+</li>
+<li>
+<p><a href="https://www.anthropic.com/news/anthropic-acquires-stainless">Anthropic 收购 Stainless</a> (Hacker News)
+    AI 独角兽 Anthropic 宣布收购 API 开发工具公司 Stainless。此次收购旨在提升 Anthropic 的 API 易用性与开发者体验，Stainless 的技术将帮助 Claude 更好地集成到开发者的工作流中，进一步加剧 AI 基础设施领域的竞争。</p>
+</li>
+<li>
+<p><a href="https://36kr.com/p/3814695536336387?f=rss">百度一季度营收 321 亿元，AI 业务收入 136 亿元</a> (36kr)
+    百度发布财报，一季度总营收 321 亿元，其中 AI 业务收入达 136 亿元，占比显著。这表明百度的 AI 战略转型已初见成效，AI 云与智能驾驶等业务正成为新的增长引擎，反映了国内大厂在 AI 落地方面的实际进展。</p>
+</li>
+<li>
+<p><a href="https://36kr.com/p/3815679486909954?f=rss">阿里云获中国 AI 云市场份额双料冠军</a> (36kr)
+    Omdia 报告显示，2025 年中国 AI 云市场规模超 567 亿元，阿里云在 AI IaaS 和 MaaS 领域均位列第一，总份额升至 38.1%。数据印证了算力与模型服务需求的爆发，阿里云凭借基础设施优势稳固了其市场领头羊地位。</p>
+</li>
+<li>
+<p><a href="https://36kr.com/p/3814368445259270?f=rss">宇石空间完成 5 亿元 A 轮融资</a> (36kr)
+    商业火箭公司宇石空间完成 5 亿元 A 轮融资，由高榕创投等领投。资金将用于火箭总装测试及“筷子回收”技术验证。这显示商业航天赛道依然火热，可回收技术成为资本押注的关键方向。</p>
+</li>
+</ul>
+<h2>2. 趋势与解读</h2>
+<ul>
+<li>
+<p><a href="https://36kr.com/p/3810598875307780?f=rss">番茄小说推动 AI 动漫上院线</a> (36kr)
+    字节跳动旗下番茄小说正推动 AI 动漫进入院线，并开放头部 IP 改编权限。这标志着 AIGC 技术正从辅助工具走向内容生产核心，试图解决 IP 视觉化成本高、周期长的痛点，可能重塑动漫影视行业的生产流程与商业模式。</p>
+</li>
+<li>
+<p><a href="https://36kr.com/p/3814337101111044?f=rss">对话万成云商：从 SEO 到 GEO 的转变</a> (36kr)
+    随着用户搜索入口从传统引擎转向 AI 工具，GEO（生成式引擎优化）正在取代 SEO。文章指出，大模型并非“喂什么推什么”，企业需要调整内容策略以适应 AI 的推荐逻辑，这将是数字营销领域的新范式转移。</p>
+</li>
+<li>
+<p><a href="https://36kr.com/p/3814860909600261?f=rss">鲸跃动力获数千万元种子轮投资</a> (36kr)
+    鲸跃动力致力于打造“开箱即用”的 Robo Labor，替代高危、重复的人力劳动。融资将用于“数据+模型+末端执行”闭环的构建。这反映了具身智能正加速从实验室走向工业场景，劳动力订阅模式或将成为现实。</p>
+</li>
+<li>
+<p><a href="https://sspai.com/post/109870">arXiv 封禁提交未经核实 AI 内容的作者</a> (sspai)
+    预印本网站 arXiv 宣布，提交包含未经核实 AI 生成内容的论文作者将被封禁一年。这一举措反映了学术界对 AI 滥用导致论文质量下降的担忧，也确立了学术诚信在 AI 时代的新边界，警示研究者需对 AI 辅助内容负责。</p>
+</li>
+<li>
+<p><a href="https://archestra.ai/blog/only-responsible-ai">我们利用 Git 的 –author 标志阻止了 AI 机器人垃圾信息</a> (Hacker News)
+    开发者分享了利用 Git 的 <code>--author</code> 标志过滤 GitHub 仓库中 AI 机器人垃圾信息的经验。随着 AI 自动化提交泛滥，开源项目维护面临新挑战，这种低成本的技术手段为社区治理提供了实用的参考方案。</p>
+</li>
+</ul>
+<h2>3. 工具与深读</h2>
+<ul>
+<li>
+<p><a href="https://simonwillison.net/2026/May/19/5-minute-llms/">过去六个月的 LLMs 五分钟速览</a> (Hacker News)
+    由知名技术博主 Simon Willison 撰写的长文，浓缩了过去半年大模型领域的关键进展。文章梳理了模型能力、开源生态及应用架构的演变，适合开发者在短时间内快速把握行业脉搏，理解技术迭代的核心方向。</p>
+</li>
+<li>
+<p><a href="https://github.com/zakirullin/files.md">Files.md：Obsidian 的开源替代品</a> (Hacker News)
+    一个开源的文件管理工具，定位为 Obsidian 的替代方案。它专注于提供简洁高效的文件组织与笔记体验，对于追求数据自主权及轻量化工具的用户来说，是一个值得尝试的新选择。</p>
+</li>
+<li>
+<p><a href="https://www.infoq.cn/article/kNkrHGzRvA7r6pRtlGB5">Kubernetes v1.36 发布</a> (InfoQ)
+    Kubernetes 发布 v1.36 版本，重点强化了安全默认配置，并进一步优化了对 AI 工作负载的支持。作为云原生时代的操作系统，K8s 的每一次迭代都牵动着基础设施的演进，此次更新对 AI 模型部署尤为利好。</p>
+</li>
+<li>
+<p><a href="https://www.infoq.cn/article/qoFJdpJ1GqkUBzg7yBQI">Cangjie：一门新的开源编译型语言</a> (InfoQ)
+    文章介绍了 Cangjie（仓颉）语言，这是一门原生支持效应处理器和代数数据类型的新开源编译型语言。对于关注编程语言设计与系统编程的开发者而言，这篇文章深入解析了其设计哲学与技术特性。</p>
+</li>
+<li>
+<p><a href="https://www.v2ex.com/t/1213663">免费的 AI 公益站重新开放注册</a> (V2EX)
+    V2EX 网友分享了一个基于自建 GPT Pro 号池搭建的公益站，目前重新开放注册并赠送额度，提供 GPT-5.3 等模型服务。对于希望低成本体验前沿大模型能力的个人用户，这是一个难得的尝鲜机会。</p>
+</li>
+</ul>
+                </div>
+            </article>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            Daily Tech News · 由 GLM-5 自动生成
+        </div>
+    </footer>
+</body>
+</html>
