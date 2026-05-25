@@ -1,0 +1,252 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Tech News | 2026-05-25</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        *, *::before, *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        :root {
+            --bg-primary: #f3f4f6;
+            --bg-secondary: #ffffff;
+            --bg-tertiary: #f9fafb;
+            --border: #e5e7eb;
+            --text-primary: #111827;
+            --text-secondary: #4b5563;
+            --accent: #f97316;
+            --accent-hover: #ea580c;
+        }
+
+        body {
+            font-family: 'Inter', 'Noto Sans SC', sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.6;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 20px;
+            width: 100%;
+        }
+
+        /* Header */
+        header {
+            background: rgba(255, 255, 255, 0.9);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid var(--border);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .header-inner {
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .back-link {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 14px;
+            display: flex;
+            align-items: center;
+            gap: 4px;
+            transition: color 0.2s;
+        }
+
+        .back-link:hover {
+            color: var(--accent);
+        }
+
+        .header-date {
+            font-size: 14px;
+            color: var(--text-secondary);
+            font-family: monospace;
+        }
+
+        /* Main */
+        main {
+            flex: 1;
+            padding: 40px 0;
+        }
+
+        .digest-item {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        }
+
+        .digest-content {
+            padding: 32px;
+        }
+
+        /* Content Styles */
+        .digest-content h1 {
+            font-size: 24px;
+            margin-bottom: 16px;
+            color: var(--text-primary);
+        }
+
+        .digest-content h2 {
+            font-size: 18px;
+            margin: 32px 0 16px;
+            padding-bottom: 8px;
+            border-bottom: 1px solid var(--border);
+            color: var(--text-primary);
+        }
+
+        .digest-content p {
+            margin-bottom: 16px;
+            color: var(--text-secondary);
+        }
+
+        .digest-content ul {
+            padding-left: 20px;
+            margin-bottom: 24px;
+        }
+
+        .digest-content li {
+            margin-bottom: 12px;
+            color: var(--text-secondary);
+        }
+
+        .digest-content a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+
+        .digest-content a:hover {
+            text-decoration: underline;
+        }
+
+        /* Footer */
+        footer {
+            padding: 32px 0;
+            text-align: center;
+            color: var(--text-secondary);
+            font-size: 13px;
+            border-top: 1px solid var(--border);
+            background: var(--bg-secondary);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-inner">
+                <a href="../index.html" class="back-link">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M19 12H5M12 19l-7-7 7-7"/>
+                    </svg>
+                    Daily Tech News
+                </a>
+                <span class="header-date">2026-05-25</span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <article class="digest-item">
+                <div class="digest-content">
+                    <h1>Daily Tech News | 2026-05-25</h1>
+<p>今日科技圈动态频出，阿里云宣布将限制 DNS 免费版流量，引发开发者社区热议。AI 领域持续升温，具身智能赛道融资不断，而关于 AI 编码的实际效率与局限性也引发了资深工程师的深度探讨。此外，RISC-V 生态迎来里程碑突破，微软开源早期 DOS 代码，为技术圈增添了几分历史厚重感。</p>
+<h2>1. 今日必读</h2>
+<ul>
+<li>
+<p><a href="https://www.v2ex.com/t/1215176">阿里云云解析 DNS 免费版将实施流量管控</a> (V2EX)
+  阿里云发布公告称，将于 2026 年 6 月 24 日起对云解析 DNS 免费版进行管控，针对超大流量请求实施限速。官方表示此举是为了保障全球解析链路的稳定性，避免异常流量影响正常业务，建议开发者评估潜在影响并做好应对准备。</p>
+</li>
+<li>
+<p><a href="https://36kr.com/p/3823941399826566">特斯拉 FSD 中文名调整为“特斯拉辅助驾驶”</a> (36kr)
+  特斯拉 FSD 中文名称正式变更为“特斯拉辅助驾驶”，售价仍为 6.4 万元。这一更名举措被视为对监管规范的响应，旨在明确产品属性，降低用户对“自动驾驶”能力的过度预期，从而减少因误用导致的安全事故风险。</p>
+</li>
+<li>
+<p><a href="https://36kr.com/p/3824113690546567">阿里达摩院玄铁 9 系列处理器成功适配安卓</a> (36kr)
+  阿里达摩院宣布玄铁 9 系列高性能处理器已完成对 Android 16 的适配，成为全球首款运行最新安卓系统的 RVA23 兼容 RISC-V 处理器。这标志着 RISC-V 架构在安卓生态中从功能移植迈入规范化商业落地阶段。</p>
+</li>
+<li>
+<p><a href="https://techcrunch.com/2026/05/21/scammers-are-abusing-an-internal-microsoft-account-to-send-spam/">骗子滥用微软内部账户发送垃圾邮件</a> (Hacker News)
+  安全研究人员披露，攻击者正在滥用微软内部账户发送包含恶意链接的垃圾邮件。由于邮件源自官方域名，具有较高的欺骗性，这暴露了大型科技企业内部账户管理的安全隐患，用户需对即使是“官方”来源的邮件保持警惕。</p>
+</li>
+<li>
+<p><a href="https://36kr.com/p/3824126045933704">摩根士丹利预测 2030 年半导体市场规模达 1.5 万亿美元</a> (36kr)
+  摩根士丹利报告预测，到 2030 年全球半导体市场规模将达 1.5 万亿美元，其中 AI 相关产品将占据半壁江山。报告指出，代理式 AI 的发展将推动计算需求从推理向执行延伸，为 CPU 和 GPU 市场带来持续增长动力。</p>
+</li>
+</ul>
+<h2>2. 趋势与解读</h2>
+<ul>
+<li>
+<p><a href="https://www.infoq.cn/article/e17xvwLZf8rQrArWAFR6">Copilot 创始工程师：AI 编码像“开法拉利买牛奶”</a> (InfoQ)
+  Copilot 创始工程师指出，虽然 AI 在代码补全上效率极高，但在缺乏明确架构指引时难以完成创造性任务。这一比喻精准揭示了当前 AI 编码工具的局限性：它能极速完成确定性工作，却无法替代人类定义问题和设计系统。</p>
+</li>
+<li>
+<p><a href="https://epoch.ai/data-insights/ai-chip-component-cost-shares">内存成本已占 AI 芯片组件成本近三分之二</a> (Hacker News)
+  数据显示，内存成本在 AI 芯片组件总成本中的占比已攀升至近三分之二。随着大模型对显存带宽和容量的渴求，内存墙已成为算力突破的关键瓶颈，这一趋势将深刻影响未来 AI 芯片的架构设计与供应链议价权。</p>
+</li>
+<li>
+<p><a href="https://36kr.com/p/3819931562414467">具身智能赛道融资火热，产业链加速完善</a> (36kr)
+  具身智能大脑公司“具脑磐石”、机器人力传感器企业“蓝点触控”及空间相机公司“竹马创新”近期均获大额融资。资本正密集布局具身智能全产业链，从感知硬件到决策大脑，显示出市场对 AI 从数字世界迈向物理世界的坚定看好。</p>
+</li>
+<li>
+<p><a href="https://36kr.com/p/3822747968196993">游戏 AI 队友活跃度超真人，技术外溢至千行百业</a> (36kr)
+  《和平精英》AI 队友周末活跃玩家突破 1770 万，麦克风开启率甚至超过真人双排。这表明玩家已习惯与 AI 深度交互，游戏成为 AI 技术的最佳练兵场，相关交互技术正逐步外溢至教育、客服等更广泛的行业应用。</p>
+</li>
+<li>
+<p><a href="https://www.infoq.cn/article/VZ4KvkToY57zj0ycsdBF">GitHub 被指面临生存之战，内部文化动荡</a> (InfoQ)
+  多位员工爆料 GitHub 在微软治下内部管理混乱，独立文化逐渐丧失。作为全球开发者核心平台，其内部动荡引发社区担忧，折射出巨头收购开源平台后常见的文化冲突与商业化压力，开发者生态的中立性面临挑战。</p>
+</li>
+</ul>
+<h2>3. 工具与深读</h2>
+<ul>
+<li>
+<p><a href="https://esengine.github.io/DeepSeek-Reasonix/">DeepSeek 发布原生编码智能体 Reasonix</a> (Hacker News)
+  DeepSeek 推出原生编码智能体 DeepSeek Reasonix，主打高缓存机制与低成本优势。该工具旨在提升代码生成与推理效率，为开发者提供了一个强有力的 AI 辅助编程新选择，进一步加剧了 AI Coding 工具赛道的竞争。</p>
+</li>
+<li>
+<p><a href="https://arstechnica.com/gadgets/2026/04/microsoft-open-sources-the-earliest-dos-source-code-discovered-to-date/">微软开源“迄今发现最早的 DOS 源代码”</a> (Hacker News)
+  微软开源了迄今发现最早的 DOS 源代码，为计算机历史研究提供了珍贵资料。此举让开发者得以窥见操作系统早期的架构设计与编程哲学，对于理解现代操作系统演进和软件工程历史具有重要的学术与教育价值。</p>
+</li>
+<li>
+<p><a href="https://sspai.com/post/109741">capcap：免费开源的 macOS 截图工具</a> (少数派)
+  capcap 是一款常驻菜单栏的 macOS 截图工具，支持一键截图、标注、长截及上传图床。作为纯 AppKit 开发的应用，它主打零依赖、零订阅和零遥测，为追求隐私与简洁体验的 Mac 用户提供了一个高效的免费替代方案。</p>
+</li>
+<li>
+<p><a href="https://corrode.dev/learn/migration-guides/go-to-rust/">Rust 学习指南：从 Go 迁移到 Rust</a> (Hacker News)
+  这是一份详尽的技术迁移指南，旨在帮助开发者从 Go 语言平滑过渡到 Rust。文章深入对比了两种语言在内存管理、并发模型及错误处理上的差异，适合有一定 Go 经验并希望探索系统级编程新领域的开发者阅读。</p>
+</li>
+<li>
+<p><a href="https://sspai.com/post/104073">iOS 实用辅助功能详解</a> (少数派)
+  文章详细介绍了 iOS 中那些常被忽视但极其实用的辅助功能。随着全面屏时代的到来，辅助功能已不再仅服务于特定人群，其中的许多功能如“小白点”等能显著提升普通用户的操作效率，是挖掘 iPhone 潜力的必读教程。</p>
+</li>
+</ul>
+                </div>
+            </article>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            Daily Tech News · 由 GLM-5 自动生成
+        </div>
+    </footer>
+</body>
+</html>
