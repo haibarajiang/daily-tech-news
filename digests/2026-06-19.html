@@ -1,0 +1,252 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Tech News | 2026-06-19</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        *, *::before, *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        :root {
+            --bg-primary: #f3f4f6;
+            --bg-secondary: #ffffff;
+            --bg-tertiary: #f9fafb;
+            --border: #e5e7eb;
+            --text-primary: #111827;
+            --text-secondary: #4b5563;
+            --accent: #f97316;
+            --accent-hover: #ea580c;
+        }
+
+        body {
+            font-family: 'Inter', 'Noto Sans SC', sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.6;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 20px;
+            width: 100%;
+        }
+
+        /* Header */
+        header {
+            background: rgba(255, 255, 255, 0.9);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid var(--border);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .header-inner {
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .back-link {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 14px;
+            display: flex;
+            align-items: center;
+            gap: 4px;
+            transition: color 0.2s;
+        }
+
+        .back-link:hover {
+            color: var(--accent);
+        }
+
+        .header-date {
+            font-size: 14px;
+            color: var(--text-secondary);
+            font-family: monospace;
+        }
+
+        /* Main */
+        main {
+            flex: 1;
+            padding: 40px 0;
+        }
+
+        .digest-item {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        }
+
+        .digest-content {
+            padding: 32px;
+        }
+
+        /* Content Styles */
+        .digest-content h1 {
+            font-size: 24px;
+            margin-bottom: 16px;
+            color: var(--text-primary);
+        }
+
+        .digest-content h2 {
+            font-size: 18px;
+            margin: 32px 0 16px;
+            padding-bottom: 8px;
+            border-bottom: 1px solid var(--border);
+            color: var(--text-primary);
+        }
+
+        .digest-content p {
+            margin-bottom: 16px;
+            color: var(--text-secondary);
+        }
+
+        .digest-content ul {
+            padding-left: 20px;
+            margin-bottom: 24px;
+        }
+
+        .digest-content li {
+            margin-bottom: 12px;
+            color: var(--text-secondary);
+        }
+
+        .digest-content a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+
+        .digest-content a:hover {
+            text-decoration: underline;
+        }
+
+        /* Footer */
+        footer {
+            padding: 32px 0;
+            text-align: center;
+            color: var(--text-secondary);
+            font-size: 13px;
+            border-top: 1px solid var(--border);
+            background: var(--bg-secondary);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-inner">
+                <a href="../index.html" class="back-link">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M19 12H5M12 19l-7-7 7-7"/>
+                    </svg>
+                    Daily Tech News
+                </a>
+                <span class="header-date">2026-06-19</span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <article class="digest-item">
+                <div class="digest-content">
+                    <h1>Daily Tech News | 2026-06-19</h1>
+<p>今日科技圈聚焦安全与基础设施变革：Let's Encrypt 大规模宕机敲响网络基础服务警钟，Anthropic 因 AI 安全隐患遭监管整治；产业侧，SpaceX 巨额债券发行与现代全资收购波士顿动力重塑行业格局；开发者生态中，AI 编程工具的落地争议与降本增效实践持续演进。</p>
+<h2>1. 今日必读</h2>
+<ul>
+<li>
+<p><a href="https://letsencrypt.status.io/#2026">Let's Encrypt 今日出现大规模宕机</a> (Hacker News)
+  互联网核心证书颁发机构 Let's Encrypt 今日遭遇长时间宕机，直接影响大量网站的 HTTPS 证书签发与续期，对依赖其服务的全球网站安全性与可用性造成严重冲击。</p>
+</li>
+<li>
+<p><a href="https://36kr.com/newsflashes/3859573996983560?f=rss">华尔街投行筹备SpaceX至少200亿美元潜在债券发行</a> (36kr)
+  SpaceX在创纪录IPO后，承销行正筹备至少200亿美元的潜在债券发行，最快下周一与投资者通话。募集资金将用于再融资2027年到期的200亿美元过桥贷款，显示其资金运作规模庞大。</p>
+</li>
+<li>
+<p><a href="https://36kr.com/newsflashes/3859401780434176?f=rss">现代汽车集团拟将波士顿动力转为全资子公司</a> (36kr)
+  现代汽车集团将以约3.25亿美元收购软银持有的波士顿动力9.65%股份，将其转为全资子公司。此举意味着这家知名机器人公司将迎来股权结构的彻底整合，或加速其商业化进程。</p>
+</li>
+<li>
+<p><a href="https://36kr.com/p/3855480467543042?f=rss">北大科学家下场做脑机接口，种子轮融了近亿元</a> (36kr)
+  侵入式脑机接口公司「芯生视界」完成近亿元种子轮融资，由经纬创投领投。随着AI Agent和具身智能技术进化，脑机接口在医疗场景的落地潜力被进一步放大，资本持续加注。</p>
+</li>
+<li>
+<p><a href="https://36kr.com/newsflashes/3859411565532422?f=rss">Waymo因存在驶入施工路段风险，召回3800余辆自动驾驶出租车</a> (36kr)
+  因车辆可能高速闯入高速公路施工路段，Waymo宣布召回3800余辆搭载第五代系统的出租车。此前已发生多起未识别匝道封闭标识的安全事件，凸显自动驾驶应对长尾路况仍存挑战。</p>
+</li>
+</ul>
+<h2>2. 趋势与解读</h2>
+<ul>
+<li>
+<p><a href="https://36kr.com/newsflashes/3859408242004996?f=rss">因AI安全隐患遭监管，Anthropic承诺加强与美政府沟通</a> (36kr)
+  Anthropic高性能模型Mythos与Fable因安全隐患遭监管整治，公司向美商务部提交方案承诺深化合作。这反映出AI巨头正面临日益严格的政府安全审查，合规将成为模型发布的关键前提。</p>
+</li>
+<li>
+<p><a href="https://www.v2ex.com/t/1221368">我司为了强制使用 AI 开发实施的新的绩效考核办法，博诸君一笑</a> (V2EX)
+  有公司按AI模型调用次数/token数对开发者进行强制排名扣分。这种脱离实际业务价值、唯token论的管理方式，暴露出部分管理层对AI的盲目崇拜与认知错位，可能反而损害开发效率。</p>
+</li>
+<li>
+<p><a href="https://www.v2ex.com/t/1221375">发现 windsurf 上的国产最新最强模型都是免费了。如 glm-5.2, kimi-2.7 等</a> (V2EX)
+  Windsurf将国产开源模型如GLM-5.2、Kimi-2.7等免费且不限速提供给用户使用。这表明在AI编程工具赛道，通过集成开源模型来降低用户门槛、抢占市场份额正成为新趋势。</p>
+</li>
+<li>
+<p><a href="https://36kr.com/newsflashes/3859403678684424?f=rss">亚马逊拟向第三方数据中心销售AI芯片</a> (36kr)
+  亚马逊正洽谈向第三方数据中心销售其自研AI定制芯片。此举标志着云巨头不再仅将自研芯片作为内部差异化优势，而是将其推向外部市场，直接与英伟达等芯片厂商竞争。</p>
+</li>
+<li>
+<p><a href="https://orchidfiles.com/github-repositories-distributing-malware/">I found 10k GitHub repositories distributing Trojan malware</a> (Hacker News)
+  研究人员发现上万个GitHub仓库正在分发木马恶意软件。随着开源供应链攻击日益泛滥，开发者在拉取代码和依赖时面临严峻安全挑战，供应链安全审查机制亟待升级。</p>
+</li>
+</ul>
+<h2>3. 工具与深读</h2>
+<ul>
+<li>
+<p><a href="https://www.v2ex.com/t/1221330">MD Preview 全平台上线：一个给 AI 生成 Markdown 文档用的本地预览器</a> (V2EX)
+  一款专为AI生成Markdown文档设计的本地预览器，现已覆盖Win/Mac/Linux/Android/iOS。它主打只读优先，解决了Claude等AI输出长文档时难以实时美观预览的痛点。</p>
+</li>
+<li>
+<p><a href="https://www.greybeam.ai/blog/duckdb-internals-part-1">DuckDB Internals: Why Is DuckDB Fast? (Part 1)</a> (Hacker News)
+  深度解析DuckDB为何能在数据分析场景下实现高性能。文章从底层架构出发，详细解读其向量化执行引擎与列式存储设计，是数据库开发者和数据工程师不可多得的优质深读材料。</p>
+</li>
+<li>
+<p><a href="https://blog.modelcontextprotocol.io/posts/enterprise-managed-auth/">Zero-Touch OAuth for MCP</a> (Hacker News)
+  MCP（模型上下文协议）推出零触碰OAuth企业级托管认证功能。该机制极大简化了AI Agent在调用外部API时的鉴权流程，为Agent安全、无缝地接入企业级数据源扫清了障碍。</p>
+</li>
+<li>
+<p><a href="https://www.infoq.cn/article/SdkcGqZQ2coEqM04xsQG?utm_source=rss&amp;utm_medium=article">砍掉90%冗余词元，省下70万美元：Netflix开源工具狙击AI账单黑洞</a> (InfoQ)
+  Netflix开源了一项工具，通过削减90%的冗余Token为公司省下70万美元。对于受困于大模型推理成本的企业，该工具提供了极具实操价值的降本方案，值得AI应用开发者借鉴。</p>
+</li>
+<li>
+<p><a href="https://github.com/cajal-technologies/talos">Show HN: Talos – Open-source WASM interpreter for Lean</a> (Hacker News)
+  Cajal开源了Talos框架，用于在Lean中对WebAssembly模块进行形式化验证。对于追求高安全性和数学级证明的Wasm应用场景，该工具提供了强大的形式化验证能力。</p>
+</li>
+</ul>
+                </div>
+            </article>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            Daily Tech News · 由 GLM-5 自动生成
+        </div>
+    </footer>
+</body>
+</html>
