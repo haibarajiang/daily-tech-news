@@ -1,0 +1,252 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Tech News | 2026-06-27</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        *, *::before, *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        :root {
+            --bg-primary: #f3f4f6;
+            --bg-secondary: #ffffff;
+            --bg-tertiary: #f9fafb;
+            --border: #e5e7eb;
+            --text-primary: #111827;
+            --text-secondary: #4b5563;
+            --accent: #f97316;
+            --accent-hover: #ea580c;
+        }
+
+        body {
+            font-family: 'Inter', 'Noto Sans SC', sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.6;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 20px;
+            width: 100%;
+        }
+
+        /* Header */
+        header {
+            background: rgba(255, 255, 255, 0.9);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid var(--border);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .header-inner {
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .back-link {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 14px;
+            display: flex;
+            align-items: center;
+            gap: 4px;
+            transition: color 0.2s;
+        }
+
+        .back-link:hover {
+            color: var(--accent);
+        }
+
+        .header-date {
+            font-size: 14px;
+            color: var(--text-secondary);
+            font-family: monospace;
+        }
+
+        /* Main */
+        main {
+            flex: 1;
+            padding: 40px 0;
+        }
+
+        .digest-item {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        }
+
+        .digest-content {
+            padding: 32px;
+        }
+
+        /* Content Styles */
+        .digest-content h1 {
+            font-size: 24px;
+            margin-bottom: 16px;
+            color: var(--text-primary);
+        }
+
+        .digest-content h2 {
+            font-size: 18px;
+            margin: 32px 0 16px;
+            padding-bottom: 8px;
+            border-bottom: 1px solid var(--border);
+            color: var(--text-primary);
+        }
+
+        .digest-content p {
+            margin-bottom: 16px;
+            color: var(--text-secondary);
+        }
+
+        .digest-content ul {
+            padding-left: 20px;
+            margin-bottom: 24px;
+        }
+
+        .digest-content li {
+            margin-bottom: 12px;
+            color: var(--text-secondary);
+        }
+
+        .digest-content a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+
+        .digest-content a:hover {
+            text-decoration: underline;
+        }
+
+        /* Footer */
+        footer {
+            padding: 32px 0;
+            text-align: center;
+            color: var(--text-secondary);
+            font-size: 13px;
+            border-top: 1px solid var(--border);
+            background: var(--bg-secondary);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-inner">
+                <a href="../index.html" class="back-link">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M19 12H5M12 19l-7-7 7-7"/>
+                    </svg>
+                    Daily Tech News
+                </a>
+                <span class="header-date">2026-06-27</span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <article class="digest-item">
+                <div class="digest-content">
+                    <h1>Daily Tech News | 2026-06-27</h1>
+<p>今日科技圈迎来大模型重磅更新，OpenAI 发布 GPT-5.6 系列并引入政府审查机制，Anthropic 则在获批重部署 Mythos 5 的同时指控阿里蒸馏攻击。产业端，AI 算力需求拉动电子行业利润翻倍，而 AI 泡沫与落地焦虑也引发广泛讨论；工具侧，智能体路由与云原生沙箱等基础设施持续演进，助力开发者应对多模型时代挑战。</p>
+<h2>1. 今日必读</h2>
+<ul>
+<li>
+<p><a href="https://36kr.com/newsflashes/3870811056821506?f=rss">OpenAI 开启 GPT-5.6 系列限量预览</a> (36kr)
+    OpenAI 发布 GPT-5.6 系列，包含旗舰模型 Sol、均衡模型 Terra 和低成本快速模型 Luna。Terra 性能与 GPT-5.5 相当但价格减半，Luna 主打极致性价比。同时，美国政府将决定 GPT-5.6 的使用权限，标志着前沿 AI 模型的分发开始受到国家级审查。</p>
+</li>
+<li>
+<p><a href="https://www.v2ex.com/t/1223127">Anthropic 指控阿里巴巴对 Claude 进行大规模蒸馏攻击</a> (V2EX)
+    Anthropic 致信美国会议员，指控阿里巴巴创建了近 2.5 万个虚假账户，对 Claude 进行了“迄今为止已知最大规模的蒸馏攻击”以获取模型能力。此事件凸显了闭源模型面临的数据安全与知识产权风险，可能加剧中美 AI 领域的摩擦与监管。</p>
+</li>
+<li>
+<p><a href="https://36kr.com/newsflashes/3870821042312192?f=rss">国家统计局：1—5月份电子行业利润同比增长103.9%</a> (36kr)
+    受全球人工智能技术变革带来的高端算力芯片和存储芯片需求爆发推动，1-5月份电子行业利润实现翻倍增长。装备制造业拉动整体工业企业利润增长，表明 AI 算力需求已成为当前工业利润增长的核心引擎。</p>
+</li>
+<li>
+<p><a href="https://36kr.com/newsflashes/3870812987954181?f=rss">SpaceX 将于7月7日纳入纳斯达克100指数</a> (36kr)
+    太空探索技术公司 SpaceX 宣布将于 2026 年 7 月 7 日正式纳入纳斯达克 100 指数。同时，Quantum Cyber 已获批收购 SpaceX 部分股权。这标志着这家商业航天巨头在资本市场获得进一步认可，将吸引更多被动资金流入。</p>
+</li>
+<li>
+<p><a href="https://36kr.com/p/3870720040588295?f=rss">苹果涨价引山姆代购潮</a> (36kr)
+    苹果近期产品价格调整引发市场强烈反应，部分门店甚至出现卖断货现象，催生了山姆代购潮。消费者对数码产品涨价极为敏感，不少人在社区表示心态受影响，甚至紧急寻找二手渠道补仓高端机型。</p>
+</li>
+</ul>
+<h2>2. 趋势与解读</h2>
+<ul>
+<li>
+<p><a href="https://36kr.com/p/3866837793952769?f=rss">张亚勤：AI不是泡沫，但AI公司有泡沫</a> (36kr)
+    面对具身智能与 AI 投资热潮，张亚勤院士呼吁降温冷静。这与社区用户吐槽“AI 革命让普通人吃亏”形成呼应：企业用 AI 裁员降本，小老板被焦虑绑架狂买 Token，硬件涨价转嫁消费者。AI 技术虽真，但部分公司的估值与商业闭环仍存泡沫。</p>
+</li>
+<li>
+<p><a href="https://36kr.com/p/3869740772316162?f=rss">G7易流发布货运行业首款穿戴式AI硬件「拍拍豆」</a> (36kr)
+    物流 AI 正从“车上”跨越到“车下”。这款仅 30 克的磁吸穿戴设备，能在司机佩戴时自动录制并上传云端，填平了物流交付最后两米的盲区。这表明 AI 正加速向边缘侧和垂直场景落地，穿戴式 AI 硬件在特定行业具有巨大实用价值。</p>
+</li>
+<li>
+<p><a href="https://www.infoq.cn/article/btKbO3iHbVM3p5WOVtqJ?utm_source=rss&amp;utm_medium=article">从 Copilot 到 Autopilot：微软发布常驻型企业智能体 Scout</a> (InfoQ)
+    微软发布常驻型企业智能体 Scout，GitHub 也推出支持并行 Agent 的 Copilot 桌面应用。这标志着 AI 辅助开发正从单次问答的“副驾驶”模式，转向能够自主规划、持续运行的“自动驾驶”模式，AI Agent 正在重塑软件开发与日常工作流。</p>
+</li>
+<li>
+<p><a href="https://blog.doubleword.ai/frontier-os-llm">The gap between open weights LLMs and closed source LLMs</a> (Hacker News)
+    随着闭源模型不断刷新能力上限，开源与闭源大模型之间的差距再次成为焦点。闭源模型在算力与数据护城河下保持领先，而开源模型则在定制化和成本上发力。这一差距的演变将深刻影响未来 AI 产业的权力分配与开发者的技术选型。</p>
+</li>
+<li>
+<p><a href="https://www.infoq.cn/article/tDY9pS7LlrVIBq1pPotd?utm_source=rss&amp;utm_medium=article">AI 智能体的身份与权限挑战</a> (InfoQ)
+    随着 Agent 成为云服务新核心用户，Uber 和 Auth0 正在重新思考访问控制。当 AI 代理能够自主调用 API 和数据时，传统的基于人的身份验证体系面临失效风险。为 Agent 建立独立的身份与最小权限机制，已成为 AI 基础设施安全的关键命题。</p>
+</li>
+</ul>
+<h2>3. 工具与深读</h2>
+<ul>
+<li>
+<p><a href="https://github.com/workweave/router">Show HN: Smart model routing directly in Claude, Codex and Cursor</a> (Hacker News)
+    Workweave Router 是一款专为编程 Agent 设计的智能路由插件，支持 Claude Code、Codex 和 Cursor。它能根据请求内容自动将任务分配给最合适的模型，帮助开发者在不同模型间平衡性能与成本，是应对多模型时代的实用提效工具。</p>
+</li>
+<li>
+<p><a href="https://github.com/dbos-inc/dbosify-py">Show HN: DBOSify – Drop-in Temporal replacement built on Postgres</a> (Hacker News)
+    DBOSify 是一个基于 Postgres 构建的 Temporal 替代品，提供无缝替换体验。对于需要分布式工作流编排但又不想维护复杂独立基础设施的开发者来说，利用现有的 Postgres 数据库即可实现可靠的微服务编排，大幅降低了系统复杂度。</p>
+</li>
+<li>
+<p><a href="https://aws.amazon.com/blogs/aws/run-isolated-sandboxes-with-full-lifecycle-control-aws-lambda-introduces-microvms/">MicroVMs: Run isolated sandboxes with full lifecycle control</a> (Hacker News)
+    AWS Lambda 引入 MicroVMs，提供具有全生命周期控制的隔离沙箱环境。这一更新增强了函数计算的安全隔离性与灵活性，对于需要运行不可信代码或高安全边界要求的 AI 代码执行场景，提供了更底层的基础设施支持。</p>
+</li>
+<li>
+<p><a href="https://www.infoq.cn/article/5YIK6SvTf5h07YckXZd3?utm_source=rss&amp;utm_medium=article">API7.ai创始人：烧了几百亿Token，用AI重写生产级网关的6条经验</a> (InfoQ)
+    API7.ai 创始人分享了使用 AI 重写生产级网关的实战经验。文章详细总结了烧掉几百亿 Token 后得出的 6 条核心避坑指南，对于想要在核心业务代码中引入 AI 辅助编程的架构师和开发者而言，是极具参考价值的深度实践复盘。</p>
+</li>
+<li>
+<p><a href="https://github.com/Tessil/hopscotch-map">A C++ implementation of a fast hash map and hash set using hopscotch hashing</a> (Hacker News)
+    Tessil 开源的 hopscotch-map 是一个使用跳房子哈希算法的 C++ 高性能哈希映射和集合实现。相比传统哈希表，它在缓存友好性和最坏情况延迟上表现更优，适合对性能极其敏感的 C++ 底层开发与高频交易等场景。</p>
+</li>
+</ul>
+                </div>
+            </article>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            Daily Tech News · 由 GLM-5 自动生成
+        </div>
+    </footer>
+</body>
+</html>
