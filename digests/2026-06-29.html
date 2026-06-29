@@ -1,0 +1,222 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Tech News | 2026-06-29</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        *, *::before, *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        :root {
+            --bg-primary: #f3f4f6;
+            --bg-secondary: #ffffff;
+            --bg-tertiary: #f9fafb;
+            --border: #e5e7eb;
+            --text-primary: #111827;
+            --text-secondary: #4b5563;
+            --accent: #f97316;
+            --accent-hover: #ea580c;
+        }
+
+        body {
+            font-family: 'Inter', 'Noto Sans SC', sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.6;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 20px;
+            width: 100%;
+        }
+
+        /* Header */
+        header {
+            background: rgba(255, 255, 255, 0.9);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid var(--border);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .header-inner {
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .back-link {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 14px;
+            display: flex;
+            align-items: center;
+            gap: 4px;
+            transition: color 0.2s;
+        }
+
+        .back-link:hover {
+            color: var(--accent);
+        }
+
+        .header-date {
+            font-size: 14px;
+            color: var(--text-secondary);
+            font-family: monospace;
+        }
+
+        /* Main */
+        main {
+            flex: 1;
+            padding: 40px 0;
+        }
+
+        .digest-item {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        }
+
+        .digest-content {
+            padding: 32px;
+        }
+
+        /* Content Styles */
+        .digest-content h1 {
+            font-size: 24px;
+            margin-bottom: 16px;
+            color: var(--text-primary);
+        }
+
+        .digest-content h2 {
+            font-size: 18px;
+            margin: 32px 0 16px;
+            padding-bottom: 8px;
+            border-bottom: 1px solid var(--border);
+            color: var(--text-primary);
+        }
+
+        .digest-content p {
+            margin-bottom: 16px;
+            color: var(--text-secondary);
+        }
+
+        .digest-content ul {
+            padding-left: 20px;
+            margin-bottom: 24px;
+        }
+
+        .digest-content li {
+            margin-bottom: 12px;
+            color: var(--text-secondary);
+        }
+
+        .digest-content a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+
+        .digest-content a:hover {
+            text-decoration: underline;
+        }
+
+        /* Footer */
+        footer {
+            padding: 32px 0;
+            text-align: center;
+            color: var(--text-secondary);
+            font-size: 13px;
+            border-top: 1px solid var(--border);
+            background: var(--bg-secondary);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-inner">
+                <a href="../index.html" class="back-link">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M19 12H5M12 19l-7-7 7-7"/>
+                    </svg>
+                    Daily Tech News
+                </a>
+                <span class="header-date">2026-06-29</span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <article class="digest-item">
+                <div class="digest-content">
+                    <h1>Daily Tech News | 2026-06-29</h1>
+<p>今日科技圈迎来多项重磅动态，AI 领域 GLM-5.2 在基准测试中击败 Claude，具身智能与端侧 AI 持续吸金与演进；同时，隐私合规与 AI 作弊问题引发广泛关注。开发者工具端，开源 ATS 与大模型 API 中转服务成为焦点。</p>
+<h2>1. 今日必读</h2>
+<ul>
+<li><a href="https://semgrep.dev/blog/2026/we-have-mythos-at-home-glm-52-beats-claude-in-our-cyber-benchmarks/">GLM 5.2 beats Claude in our benchmarks</a> (Hacker News)
+  Semgrep 的基准测试显示，GLM 5.2 在网络安全相关测试中击败了 Claude，标志着国产大模型在特定垂直领域的推理与代码能力已达到甚至超越国际顶尖水平，对开发者工具选择产生重要影响。</li>
+<li><a href="https://36kr.com/p/3868055841641476?f=rss">港大教授创业做通用全身具身大脑，获真格高榕IDG五源等数亿种子轮融资</a> (36kr)
+  通用全身具身大脑公司「源策未来Archon Robotics」完成数亿元种子轮融资，投资方包括真格、高榕、IDG等头部机构。资金将用于全身人形基础模型研发及多模态动作数据采集，显示资本高度看好具身智能赛道。</li>
+<li><a href="https://36kr.com/newsflashes/3873735817024773?f=rss">字节跳动考虑合作百度昆仑芯？接近人士回应</a> (36kr)
+  此前有消息称百度旗下昆仑芯计划赴港上市且字节跳动考虑采用其AI芯片，但接近人士回应称字节目前没有和昆仑芯片合作的意向。这反映出国内大厂在算力自主可控路径上的审慎与博弈。</li>
+<li><a href="https://chipsandcheese.com/p/top500-at-isc26-we-have-a-new-number">TOP500 at ISC’26: We have a New Number 1 Supercomputer</a> (Hacker News)
+  ISC'26大会上公布了最新一期TOP500超算榜单，诞生了新的全球第一超算。这标志着全球算力竞赛进入新阶段，对气象预测、核爆模拟及大模型训练等重算力需求领域具有深远意义。</li>
+<li><a href="https://36kr.com/newsflashes/3873720283600134?f=rss">月之暗面声明：未授权任何第三方处理融资交易</a> (36kr)
+  月之暗面发布严正声明，指出市场上出现多起假借公司名义的融资及股权交易不实信息，涉嫌欺诈。公司强调未授权任何第三方处理融资交易，未经批准的老股交易一律无效，提醒投资者警惕一级市场乱象。</li>
+</ul>
+<h2>2. 趋势与解读</h2>
+<ul>
+<li><a href="https://nonogra.ph/age-verification-is-just-a-precursor-to-attribution-of-speech-06-29-2026">Age verification is just a precursor to automated attribution of speech</a> (Hacker News)
+  文章指出，当前推行的年龄验证只是前奏，其最终趋势是实现对网络言论的自动化归因。结合KIDS Act等法案要求，这种以安全为名的监管可能严重侵蚀匿名发言权，是值得警惕的隐私与自由逆风。</li>
+<li><a href="https://www.v2ex.com/t/1223445">局座讲大量三哥涌入深圳抢 IT 工作，真有这个状况吗？</a> (V2EX)
+  受美英澳签证门槛提高及国内开放K签影响，大量印度IT人才涌入深圳寻找工作机会。印度IT人才在英语和编程上的优势及较低的薪酬要求，可能加剧国内本就内卷的IT就业市场，反映出全球人才流动的新趋势。</li>
+<li><a href="https://english.elpais.com/education/2026-06-28/ai-fraud-at-brown-university-academic-integrity-is-at-risk.html">Professor denounces mass AI fraud on an exam at Brown</a> (Hacker News)
+  布朗大学教授公开谴责考试中出现大规模AI作弊行为，警告学术诚信面临严重危机。随着大模型能力提升，传统考核方式正受到颠覆性冲击，教育界亟需建立新的评估与防作弊机制。</li>
+<li><a href="https://www.infoq.cn/article/x6KDPdgrdHzY7I38JK9U?utm_source=rss&amp;utm_medium=article">苹果推出 Core AI 框架，为自研芯片优化端侧生成式 AI</a> (InfoQ)
+  苹果推出Core AI框架，专门针对自研芯片优化端侧生成式AI。这标志着端侧AI不再是概念，而是深度融入系统底层的核心能力，将极大提升隐私保护与离线响应速度，引领移动设备AI化新趋势。</li>
+<li><a href="https://36kr.com/p/3869740772316162?f=rss">G7易流发布货运行业首款穿戴式AI硬件「拍拍豆」</a> (36kr)
+  G7易流发布仅30克的穿戴式AI硬件“拍拍豆”，实现车辆熄火后自动录制与云端同步，填补物流交付“最后两米”的视觉盲区。这表明AI正从纯软件走向软硬结合，加速在传统物流等实体场景中落地。</li>
+</ul>
+<h2>3. 工具与深读</h2>
+<ul>
+<li><a href="https://danunparsed.com/p/hackerrank-open-source-ats">HackerRank open sourced its ATS. My resume scored 90/100. Oh wait 74. No – 88</a> (Hacker News)
+  HackerRank开源了其申请人追踪系统（ATS）。作者实测发现同一份简历在不同评估标准下得分波动巨大，揭示了当前AI简历筛选系统的随机性与不透明性，对求职者和HR都具有极高的参考价值。</li>
+<li><a href="https://github.com/librepods-org/librepods">Librepods: AirPods liberated</a> (Hacker News)
+  Librepods是一个旨在解放AirPods的开源项目，为苹果耳机提供更多自定义与控制功能。对于追求跨平台使用或打破生态封闭的开发者来说，这是一个极具实用价值的硬件开源工具。</li>
+<li><a href="https://www.v2ex.com/t/1223480">【国产 API】 GLM-5.2 满血 +纯血 DeepSeek V4，支持思维链、Cursor</a> (V2EX)
+  Link-AI推出国产大模型API中转服务，支持GLM-5.2与DeepSeek V4，具备0.3倍率的极高性价比，并兼容思维链和Cursor等开发工具。为需要低成本调用顶尖国产模型的开发者提供了便捷通道。</li>
+<li><a href="https://arxiv.org/abs/2401.07013">Knowledge Distillation of Black-Box Large Language Models</a> (Hacker News)
+  这篇论文探讨了黑盒大语言模型的知识蒸馏机制。对于希望利用闭源大模型能力来训练微调自家小模型的开发者而言，该研究提供了重要的理论依据与方法论，是AI工程化落地的必读深读文献。</li>
+<li><a href="https://dam.stanford.edu/memory-prices.html">Historical memory prices 1960-2026</a> (Hacker News)
+  斯坦福大学整理了1960年至2026年的历史内存价格数据。通过长周期视角的图表展示，读者能直观感受到存储技术成本呈指数级下降的伟大历程，对理解算力与硬件演进史极具深读价值。</li>
+</ul>
+                </div>
+            </article>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            Daily Tech News · 由 GLM-5 自动生成
+        </div>
+    </footer>
+</body>
+</html>
