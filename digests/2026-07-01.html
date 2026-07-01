@@ -1,0 +1,252 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Tech News | 2026-07-01</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        *, *::before, *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        :root {
+            --bg-primary: #f3f4f6;
+            --bg-secondary: #ffffff;
+            --bg-tertiary: #f9fafb;
+            --border: #e5e7eb;
+            --text-primary: #111827;
+            --text-secondary: #4b5563;
+            --accent: #f97316;
+            --accent-hover: #ea580c;
+        }
+
+        body {
+            font-family: 'Inter', 'Noto Sans SC', sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.6;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 20px;
+            width: 100%;
+        }
+
+        /* Header */
+        header {
+            background: rgba(255, 255, 255, 0.9);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid var(--border);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .header-inner {
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .back-link {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 14px;
+            display: flex;
+            align-items: center;
+            gap: 4px;
+            transition: color 0.2s;
+        }
+
+        .back-link:hover {
+            color: var(--accent);
+        }
+
+        .header-date {
+            font-size: 14px;
+            color: var(--text-secondary);
+            font-family: monospace;
+        }
+
+        /* Main */
+        main {
+            flex: 1;
+            padding: 40px 0;
+        }
+
+        .digest-item {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        }
+
+        .digest-content {
+            padding: 32px;
+        }
+
+        /* Content Styles */
+        .digest-content h1 {
+            font-size: 24px;
+            margin-bottom: 16px;
+            color: var(--text-primary);
+        }
+
+        .digest-content h2 {
+            font-size: 18px;
+            margin: 32px 0 16px;
+            padding-bottom: 8px;
+            border-bottom: 1px solid var(--border);
+            color: var(--text-primary);
+        }
+
+        .digest-content p {
+            margin-bottom: 16px;
+            color: var(--text-secondary);
+        }
+
+        .digest-content ul {
+            padding-left: 20px;
+            margin-bottom: 24px;
+        }
+
+        .digest-content li {
+            margin-bottom: 12px;
+            color: var(--text-secondary);
+        }
+
+        .digest-content a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+
+        .digest-content a:hover {
+            text-decoration: underline;
+        }
+
+        /* Footer */
+        footer {
+            padding: 32px 0;
+            text-align: center;
+            color: var(--text-secondary);
+            font-size: 13px;
+            border-top: 1px solid var(--border);
+            background: var(--bg-secondary);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-inner">
+                <a href="../index.html" class="back-link">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M19 12H5M12 19l-7-7 7-7"/>
+                    </svg>
+                    Daily Tech News
+                </a>
+                <span class="header-date">2026-07-01</span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <article class="digest-item">
+                <div class="digest-content">
+                    <h1>Daily Tech News | 2026-07-01</h1>
+<p>AI 大模型竞争步入深水区，Anthropic 连发 Claude Sonnet 5 与 Fable 5，OpenAI 与 DeepSeek 亦紧追不舍；物理 AI 元年共识达成，具身智能与机器人赛道融资火热。与此同时，AI 代理重塑开发范式，底层算力能耗与 API 安全盲区逐渐凸显，技术狂飙背后的生存与安全反思同样值得关注。</p>
+<h2>1. 今日必读</h2>
+<ul>
+<li>
+<p><a href="https://www.anthropic.com/news/claude-sonnet-5">Anthropic 连发 Claude Sonnet 5 与 Fable 5</a> (Hacker News)
+  Anthropic 正式发布 Claude Sonnet 5，同时 Fable 5 宣布在 Claude 平台全球上线。美国商务部已解除对 Fable 5 和 Mythos 5 的出口管制，Pro 及 Team 等用户可率先体验，AWS 等云平台也将重新启用访问，标志着顶级大模型竞争进入新阶段。</p>
+</li>
+<li>
+<p><a href="https://sspai.com/post/111639">OpenAI 发布 GPT 5.6，DeepSeek V4 预告 7 月中旬上线</a> (sspai)
+  OpenAI 发布 GPT 5.6 并称需美国政府批准提供对象，而 DeepSeek V4 正式版也宣布将于 7 月中旬上线。中美头部大模型厂商密集迭代，模型能力边界持续拓展，AI 行业的军备竞赛愈发白热化。</p>
+</li>
+<li>
+<p><a href="https://36kr.com/p/3873626697470985?f=rss">Kimi 估值升至 315 亿美元，ARR 突破 3 亿美元</a> (36kr)
+  月之暗面旗下 Kimi 智能助手估值攀升至 315 亿美元，年度经常性收入（ARR）突破 3 亿美元。这表明国产大模型在C端商业化探索上取得了实质性进展，用户付费意愿与模型应用粘性正在增强。</p>
+</li>
+<li>
+<p><a href="https://ai.meta.com/blog/brain2qwerty-brain-ai-human-communication/?_fb_noscript=1">Meta 实现无创脑波转文字</a> (Hacker News)
+  Meta 发布 Brain2Qwerty 技术，通过非侵入式脑机接口将脑电波直接转化为文字，为无法说话的患者提供全新沟通路径。该技术无需手术，利用AI解码脑波，是脑机接口与AI融合的重要里程碑。</p>
+</li>
+<li>
+<p><a href="https://36kr.com/newsflashes/3876509896962054?f=rss">新能源车企 6 月交付量公布：零跑同比增 95%，理想同比下降</a> (36kr)
+  蔚来6月交付40597辆同比增长62.9%，小鹏交付40126辆，零跑交付93376辆同比大增95%，而理想交付30895辆同比下降14.8%。宁德时代巧克力换电站落地2000座覆盖180城，新能源基建与终端竞争同步加剧。</p>
+</li>
+</ul>
+<h2>2. 趋势与解读</h2>
+<ul>
+<li>
+<p><a href="https://36kr.com/p/3875047283659777?f=rss">物理 AI 元年：从屏幕走向现实世界</a> (36kr)
+  产业界共识 2026 年为物理 AI 元年。前百度自动驾驶主任创立纽娲机器人获 5000 万融资做“世界通行模型”，苏大教授创业做触觉系统获天使轮。AI 正从纯软件走向软硬结合，赋予机器人感知与行动能力。</p>
+</li>
+<li>
+<p><a href="https://www.infoq.cn/article/6WCaAMdgSR8r46j3OZd4?utm_source=rss&amp;utm_medium=article">AI 代理重塑开发范式：动嘴编程时代来临</a> (InfoQ)
+  Cursor、OpenClaw 等工具推动“口袋编程”普及，程序员只需动嘴指挥。Anthropic 负责人也指出 HTML 比 MD 更利于人类跟进智能体协作流程。开发者的角色正从代码编写者转向 AI 协作流程的监督者与架构师。</p>
+</li>
+<li>
+<p><a href="https://thereallo.dev/blog/claude-code-prompt-steganography">AI 访问受限与安全盲区凸显</a> (Hacker News)
+  国内用户遭遇 Claude 大规模封号，寻找住宅 IP 等防封配置；同时 Claude Code 被发现通过隐写术标记请求。企业端也面临 AI 接入后的 API 安全新盲区。AI 使用的合规边界、隐私追踪与反制成为亟待解决的安全议题。</p>
+</li>
+<li>
+<p><a href="https://www.infoq.cn/article/5sAu5pdOatCpxaIU4vOw?utm_source=rss&amp;utm_medium=article">Agent 狂吞 Token 背后的能源博弈</a> (InfoQ)
+  AI Agent 的大规模应用导致 Token 消耗剧增，表面是模型能力之争，底层实则是煤电等能源博弈。随着 Scaling Laws 效应递减，如何在追求智能提升与控制算力能耗之间寻找平衡，成为 AI 可持续发展的关键挑战。</p>
+</li>
+<li>
+<p><a href="https://www.v2ex.com/t/1223954">30+ 程序员困境与 AI 时代的生存反思</a> (V2EX)
+  30岁以上 CRUD 程序员被裁后面临外包内卷、外卖滴滴满员的窘境。与此同时，有台湾网友分享心得称不再追 AI 热点，因多数新概念只是旧酒新瓶，最终会被封装进大厂产品。基础能力与实战经验的沉淀比盲目追风更重要。</p>
+</li>
+</ul>
+<h2>3. 工具与深读</h2>
+<ul>
+<li>
+<p><a href="https://ngrok.com/blog/i-ported-kubernetes-to-the-browser">Kubernetes 移植到浏览器运行</a> (Hacker News)
+  开发者利用 WebAssembly 等技术将 Kubernetes 成功移植到浏览器中运行。该项目降低了 K8s 的学习与测试门槛，无需配置复杂云端环境即可在本地体验完整集群操作，对云原生教学和轻量级开发测试极具价值。</p>
+</li>
+<li>
+<p><a href="https://www.infoq.cn/article/d5MOPSyGi5XPi1erhUW3?utm_source=rss&amp;utm_medium=article">Google OpenRL：LLM 后训练微调 API</a> (InfoQ)
+  Google 推出实验性自托管 API OpenRL，专为大语言模型的后训练微调设计。开发者可借此在自有基础设施上更便捷地进行 RLHF 等对齐操作，提升模型在特定业务场景的表现，兼顾了数据隐私与定制化需求。</p>
+</li>
+<li>
+<p><a href="https://stillthinking.net/posts/connections-in-math-svd/">从头推导 SVD 与缩放定律深度解析</a> (Hacker News)
+  推荐两篇硬核深读：一篇从零推导奇异值分解（SVD），梳理数学本质联系；另一篇由 Lilian Weng 撰写，谨慎审视大模型缩放定律。在 AI 狂飙时代，回归数学基础与理性审视规模效应，有助于看透技术炒作。</p>
+</li>
+<li>
+<p><a href="https://www.infoq.cn/article/NHTl88E7s4WPWwEOdijD?utm_source=rss&amp;utm_medium=article">Snowflake 多租户 Cortex Agent 构建指南</a> (InfoQ)
+  文章警告不应将租户隔离托付给 LLM，并分享了在 Snowflake 上正确打造多租户 Cortex Agent 的技术实践。为企业在引入 AI Agent 时如何保障数据安全、实现权限隔离提供了可落地的架构参考。</p>
+</li>
+<li>
+<p><a href="https://verdagon.dev/blog/ante-blending-borrowing-rc">Ante 语言：融合借用检查与引用计数</a> (Hacker News)
+  新编程语言 Ante 提出了一种将 Rust 式借用检查与自动引用计数相融合的新思路，试图在内存安全与开发体验间找到平衡。对于受限于 Rust 陡峭学习曲线的开发者，这一设计方向值得持续关注。</p>
+</li>
+</ul>
+                </div>
+            </article>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            Daily Tech News · 由 GLM-5 自动生成
+        </div>
+    </footer>
+</body>
+</html>
